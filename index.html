@@ -3,32 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Brightwood Apps | Innovative iOS Development</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="styles.css" rel="stylesheet">
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("header.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+        });
+  
+      fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    });
+  </script>
+  
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">Brightwood Apps</div>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero">
-        <div class="hero-content">
-        <h1>We develop high-grade mobile apps</h1>
-        <p>We design and build cutting-edge iOS apps that are intuitive, reliable, and delightful.</p>
-        <a href="mailto:admin@brightwoodapps.com" class="cta-button">Contact Us Today!</a>
-        </div>
-    </section>
-</main>
+  <!-- Header -->
+  <div id="header">
+    <!-- Include header.html content here if using templates, or insert code directly -->
+  </div>
 
-  <footer>
-    <p>&copy; 2024 Brightwood Apps. All rights reserved.</p>
-  </footer>
+  <!-- Hero Section -->
+  <section class="hero text-white d-flex align-items-center justify-content-center" style="height: 100vh; background: linear-gradient(90deg, rgba(0, 123, 255, 0.7), rgba(0, 200, 200, 0.7)), url('background.jpg'); background-size: cover;">
+    <div class="text-center">
+      <h1 class="display-4">We develop high-grade mobile apps</h1>
+      <p class="lead">We design and build cutting-edge iOS apps that are intuitive, reliable, and delightful.</p>
+      <a href="mailto:admin@brightwoodapps.com" class="btn btn-primary btn-lg">Contact Us Today!</a>
+    </div>
+  </section>
 
-  <script src="scripts.js"></script>
+  <!-- Footer -->
+  <div id="footer">
+    <!-- Include footer.html content here if using templates, or insert code directly -->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
