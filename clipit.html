@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clip It | Brightwood Apps</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("header.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+        });
+  
+      fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    });
+  </script>
+  <style>
+    /* Additional styling */
+    body {
+      font-family: 'Nunito', sans-serif;
+    }
+    .hero {
+      background-color: #1968E5;
+      height: 80vh;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+    .hero-content {
+      max-width: 50%;
+    }
+    .hero-image {
+      max-width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+      margin-bottom: -300px;
+    }
+    .feature-section {
+      background-color: #ffffff;
+      padding: 3rem 0;
+    }
+    .feature-title {
+      color: #1968E5;
+      font-weight: bold;
+    }
+    .app-store-button {
+      background: url('https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg') no-repeat;
+      display: inline-block;
+      width: 189px;
+      height: 56px;
+      background-size: contain;
+    }
+    .support-section {
+      background-color: #1968E5;
+      color: white;
+      padding: 3rem 0;
+      padding-bottom: 50px;
+    }
+    .small-icon {
+        width: 40%; /* Reduces the width to 50% of the original */
+        height: auto; /* Maintains the aspect ratio */
+    }
+
+    /* FAQ Accordion Styles */
+    .accordion .card {
+    background-color: rgba(255, 255, 255, 0.1); /* Soft, semi-transparent white */
+    border: none; /* Remove border */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    }
+
+    .accordion .card-header {
+    background: none; /* No background for the header */
+    color: #e0e0e0; /* Light gray for the question text */
+    }
+
+    .accordion .card-header .btn-link {
+    color: #e0e0e0;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+    .accordion .card-header .btn-link:hover {
+    color: #ffffff;
+    }
+
+    .accordion .card-body {
+    color: #ffffff; /* Light gray for the answer text */
+    background-color: rgba(251, 247, 247, 0.2); /* Slightly more opaque for answer */
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header">
+    <!-- Insert header.html content here if using includes, or paste header code directly -->
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container d-flex align-items-center">
+      <div class="hero-content pr-4">
+        <h1 class="display-4 font-weight-bold">Clip It</h1>
+        <p class="lead">Capture your best sports moments instantly—no more searching through hours of footage.</p>
+        <a href="https://www.facebook.com" class="app-store-button" aria-label="Download on the App Store"></a>
+      </div>
+      <div class="hero-image">
+        <img src="ClipItDemo.png" alt="App Screenshot">
+      </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="feature-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="feature-icon mb-3">
+            <img src="tap.png" alt="Tap Icon" class="img-fluid small-icon"> <br>
+          </div>
+          <h4 class="feature-title">Tap to Clip</h4>
+          <p>Hit an epic shot? Just tap ‘Clip It’ on your watch or phone to save the moment.</p>
+          <a href="https://www.flaticon.com/free-icons/tap" title="tap icons" style="font-size: 12px;">Tap icons created by Freepik - Flaticon</a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="feature-icon mb-3">
+            <img src="save.png" alt="Save Icon" class="img-fluid small-icon"> <br>
+          </div>
+          <h4 class="feature-title">Auto-Save</h4>
+          <p>Clip It automatically saves the moments leading up to your tap, so you never miss the action.</p>
+          <a href="https://www.flaticon.com/free-icons/save" title="save icons" style="font-size: 12px;">Save icons created by Freepik - Flaticon</a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="feature-icon mb-3">
+            <img src="share.png" alt="Share Icon" class="img-fluid small-icon"> <br>
+          </div>
+          <h4 class="feature-title">Instant Sharing</h4>
+          <p>Send your highlights to friends, coaches, or social media in seconds.</p>
+          <a href="https://www.flaticon.com/free-icons/share" title="share icons" style="font-size: 12px;">Share icons created by Freepik - Flaticon</a>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Support Section -->
+<section class="support-section text-center">
+    <div class="container">
+      <h2 class="display-4 font-weight-bold mb-4">Support</h2>
+      <p>Need help with Clip It? We’ve got you covered.</p>
+      <p>For support inquiries or feature requests, please email <a href="mailto:support@clipitapp.com" style="color: #ffffff; text-decoration: underline;">support@clipitapp.com</a>, and we’ll be happy to assist.</p>
+
+      <!-- FAQ Accordion -->
+      <div class="accordion mt-4" id="faqAccordion">
+        <!-- FAQ 1 -->
+        <div class="card">
+          <div class="card-header" id="faq1Heading">
+            <h2 class="mb-0">
+              <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                How do I clip a moment?
+              </button>
+            </h2>
+          </div>
+          <div id="faq1" class="collapse show" aria-labelledby="faq1Heading" data-parent="#faqAccordion">
+            <div class="card-body">
+              Just tap ‘Clip It’ on your Apple Watch or phone after a great play. The app automatically saves the moments leading up to your tap.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="card">
+            <div class="card-header" id="faq2Heading">
+                <h2 class="mb-0">
+                <button class="btn btn-link text-white collapsed" type="button" data-toggle="collapse" data-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                    How long does Clip It record before I tap?
+                </button>
+                </h2>
+            </div>
+            <div id="faq2" class="collapse" aria-labelledby="faq2Heading" data-parent="#faqAccordion">
+                <div class="card-body">
+                  Clip It saves the last several seconds leading up to your tap, ensuring you capture the full highlight. You can adjust this duration in the app settings.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="card">
+            <div class="card-header" id="faq3Heading">
+                <h2 class="mb-0">
+                <button class="btn btn-link text-white collapsed" type="button" data-toggle="collapse" data-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                    Can I edit my clips?
+                </button>
+                </h2>
+            </div>
+            <div id="faq3" class="collapse" aria-labelledby="faq3Heading" data-parent="#faqAccordion">
+                <div class="card-body">
+                  Yes! After capturing a moment, you can trim, merge, and add effects to your clips before sharing.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="card">
+            <div class="card-header" id="faq4Heading">
+                <h2 class="mb-0">
+                <button class="btn btn-link text-white collapsed" type="button" data-toggle="collapse" data-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                    How do I share my clips?
+                </button>
+                </h2>
+            </div>
+            <div id="faq4" class="collapse" aria-labelledby="faq4Heading" data-parent="#faqAccordion">
+                <div class="card-body">
+                  You can share clips directly to social media, send them via messaging apps, or save them to your device.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="card">
+          <div class="card-header" id="faq5Heading">
+            <h2 class="mb-0">
+              <button class="btn btn-link text-white collapsed" type="button" data-toggle="collapse" data-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                How do I contact support?
+              </button>
+            </h2>
+          </div>
+          <div id="faq5" class="collapse" aria-labelledby="faq5Heading" data-parent="#faqAccordion">
+            <div class="card-body">
+              For support, please email us at <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a>. Our team is happy to help!
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End FAQ Accordion -->
+    </div>
+</section>
+
+
+  <!-- Footer -->
+  <div id="footer">
+    <!-- Insert footer.html content here if using includes, or paste footer code directly -->
+  </div>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+  <!-- Required JavaScript for Bootstrap Accordion -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

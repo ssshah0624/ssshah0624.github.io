@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Clip It</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("header.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+        });
+
+      fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    });
+  </script>
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+    }
+    .hero {
+      background-color: #FF6500;
+      height: 50vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    .hero .container {
+      text-align: left;
+      max-width: 800px;
+    }
+    .main-content {
+      text-align: left;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4 font-weight-bold">Privacy Policy</h1>
+      <p class="lead">At Clip It, we prioritize your privacy. Our policy explains what data we collect and how we use it to enhance your experience.</p>
+    </div>
+  </section>
+
+  <!-- Main Content Section -->
+  <main class="container py-5 main-content">
+    <p>For any privacy-related questions, please contact us at <a href="mailto:support@clipitapp.com">support@clipitapp.com</a>.</p>
+
+    <h2>1. Data Collection and Usage</h2>
+    <p>Clip It collects only the necessary data to provide and improve the service:</p>
+    <ul>
+      <li><strong>Clip Data:</strong> We store your saved highlight clips to allow easy sharing and editing.</li>
+      <li><strong>Device Information:</strong> We may collect anonymized data on device type and app interactions to optimize performance.</li>
+      <li><strong>Account Information:</strong> If you create an account, we store your email and preferences to personalize your experience.</li>
+    </ul>
+
+    <h2>2. Video and Storage Permissions</h2>
+    <p>Clip It requires access to your device’s camera roll to save and retrieve clips. We do not share or access any media beyond the clips you create within the app.</p>
+
+    <h2>3. Sharing and Security</h2>
+    <p>Your clips remain private unless you choose to share them. You can send clips via social media, messaging apps, or cloud storage services.</p>
+    <p>We do not sell or distribute any personal data. Security measures are in place to protect your information from unauthorized access.</p>
+
+    <h2>4. Log Data</h2>
+    <p>Like most apps, we collect log data, including device type, app usage statistics, and errors. This helps us troubleshoot and improve performance.</p>
+
+    <h2>5. Cookies and Tracking</h2>
+    <p>Clip It does not use cookies within the app. However, our website may use cookies to improve user experience and analyze traffic.</p>
+
+    <h2>6. Third-Party Integrations</h2>
+    <p>If you connect Clip It to cloud storage or social media platforms, their privacy policies will apply when sharing your clips. We recommend reviewing their terms.</p>
+
+    <h2>7. Children’s Privacy</h2>
+    <p>Clip It is not intended for users under the age of 13. We do not knowingly collect personal data from children.</p>
+
+    <h2>8. Updates to This Policy</h2>
+    <p>We may update this Privacy Policy periodically. Any significant changes will be communicated within the app.</p>
+
+    <h2>9. Your Rights</h2>
+    <p>You can request deletion of your data or modify your preferences by contacting us at <a href="mailto:support@clipitapp.com">support@clipitapp.com</a>.</p>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
