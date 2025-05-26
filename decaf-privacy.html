@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Decaf Caffeine Tracker</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("header.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+        });
+  
+      fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    });
+  </script>
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+    }
+    .hero {
+      background-color: #8B4513;
+      height: 50vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    .hero .container {
+      text-align: left;
+      max-width: 800px;
+    }
+    .main-content {
+      text-align: left;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4 font-weight-bold">Privacy Policy</h1>
+      <p class="lead">At Decaf Caffeine Tracker, your privacy is our priority. Our Privacy Policy details what information we collect and how we use it.</p>
+    </div>
+  </section>
+
+  <!-- Main Content Section -->
+  <main class="container py-5 main-content">
+    <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a>.</p>
+
+    <h2>1. General Data Protection Regulation (GDPR)</h2>
+    <p>We strive to uphold data protection principles for all users, including those in the European Economic Area.</p>
+    <p>Our legal basis for collecting and using personal information depends on the Personal Information we collect and the specific context in which we collect it:</p>
+    <ul>
+      <li>We need to perform a contract with you</li>
+      <li>You have given us permission to do so</li>
+      <li>Processing your personal information is in our legitimate interests</li>
+      <li>We need to comply with the law</li>
+    </ul>
+
+    <h2>2. Information We Collect</h2>
+    <p>To provide you with the best caffeine tracking experience, we collect and process the following types of information:</p>
+    <ul>
+      <li><strong>User Profile Data:</strong> Basic information such as your email and username</li>
+      <li><strong>Caffeine Consumption Data:</strong> Your logged beverages and their caffeine content</li>
+      <li><strong>Health App Integration Data:</strong> If you choose to connect with Apple Health, we may access relevant health data</li>
+      <li><strong>Usage Data:</strong> How you interact with the app, including features used and time spent</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the collected information for the following purposes:</p>
+    <ul>
+      <li>To provide and maintain our Service</li>
+      <li>To track and analyze your caffeine consumption patterns</li>
+      <li>To provide personalized recommendations and alerts</li>
+      <li>To improve our app and user experience</li>
+      <li>To communicate with you about app updates and features</li>
+    </ul>
+
+    <h2>4. Data Storage and Security</h2>
+    <p>We implement appropriate security measures to protect your personal information:</p>
+    <ul>
+      <li>All data is encrypted during transmission and storage</li>
+      <li>Regular security audits and updates</li>
+      <li>Strict access controls for our personnel</li>
+      <li>Regular backups to prevent data loss</li>
+    </ul>
+
+    <h2>5. Third-Party Services</h2>
+    <p>We may use third-party services that collect information used to identify you. Key third-party services we use include:</p>
+    <ul>
+      <li>Analytics providers to improve our service</li>
+      <li>Payment processors for subscription management</li>
+      <li>Cloud storage providers for data backup</li>
+    </ul>
+
+    <h2>6. Your Data Rights</h2>
+    <p>You have the following rights regarding your personal data:</p>
+    <ul>
+      <li>The right to access your data</li>
+      <li>The right to correct inaccurate data</li>
+      <li>The right to request deletion of your data</li>
+      <li>The right to restrict processing</li>
+      <li>The right to data portability</li>
+      <li>The right to object to processing</li>
+    </ul>
+
+    <h2>7. Children's Privacy</h2>
+    <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers.</p>
+
+    <h2>8. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "effective date" at the top of this Privacy Policy.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+    <p>By email: <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a></p>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
