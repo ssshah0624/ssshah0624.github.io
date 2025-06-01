@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Baby Feeding Tracker +</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("header.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+        });
+  
+      fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    });
+  </script>
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+    }
+    .hero {
+      background-color: #FF69B4;
+      height: 50vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    .hero .container {
+      text-align: left;
+      max-width: 800px;
+    }
+    .main-content {
+      text-align: left;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4 font-weight-bold">Privacy Policy</h1>
+      <p class="lead">At Baby Feeding Tracker +, we understand the importance of protecting your family's privacy. Our Privacy Policy details what information we collect and how we use it.</p>
+    </div>
+  </section>
+
+  <!-- Main Content Section -->
+  <main class="container py-5 main-content">
+    <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a>.</p>
+
+    <h2>1. General Data Protection Regulation (GDPR)</h2>
+    <p>We strive to uphold data protection principles for all users, including those in the European Economic Area.</p>
+    <p>Our legal basis for collecting and using personal information depends on the Personal Information we collect and the specific context in which we collect it:</p>
+    <ul>
+      <li>We need to perform a contract with you</li>
+      <li>You have given us permission to do so</li>
+      <li>Processing your personal information is in our legitimate interests</li>
+      <li>We need to comply with the law</li>
+    </ul>
+
+    <h2>2. Information We Collect</h2>
+    <p>Baby Feeding Tracker + is designed with privacy in mind. All data is stored locally on your device:</p>
+    <ul>
+      <li><strong>Baby Profile Data:</strong> Your baby's name and date of birth</li>
+      <li><strong>Care Activity Data:</strong> Feeding times and amounts</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the collected information for the following purposes:</p>
+    <ul>
+      <li>To track and analyze your baby's feeding patterns</li>
+      <li>To provide smart reminders for feeding times</li>
+      <li>To generate PDF reports for healthcare providers when requested</li>
+    </ul>
+
+    <h2>4. Data Privacy</h2>
+    <p>Your privacy is our top priority:</p>
+    <ul>
+      <li>All data stays on your device</li>
+      <li>No data is transmitted to our servers</li>
+      <li>You have complete control over your data</li>
+    </ul>
+
+    <h2>5. Children's Privacy</h2>
+    <p>While Baby Feeding Tracker + is designed to track information about children, the app itself is intended for use by adults (parents and caregivers). We do not knowingly collect personally identifiable information from anyone under 13 years of age as app users. The baby profile information is entered and managed by adult users only.</p>
+
+    <h2>6. Data Sharing Between Caregivers</h2>
+    <p>When you invite other caregivers to access your baby's data:</p>
+    <ul>
+      <li>You control who has access to your baby's information</li>
+      <li>Invited caregivers can view and add data based on permissions you set</li>
+      <li>You can revoke access at any time</li>
+      <li>All caregivers must have their own account and agree to our terms</li>
+    </ul>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "effective date" at the top of this Privacy Policy.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+    <p>By email: <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a></p>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
