@@ -1,0 +1,14 @@
+# GitHub Pages Configuration
+title: Brightwood Apps
+description: Innovative iOS Development
+url: https://ssshah0624.github.io
+baseurl: ""
+
+# Build settings
+plugins: []
+
+# Exclude files from processing
+exclude:
+  - venv/
+  - README.md
+  - .gitignore
