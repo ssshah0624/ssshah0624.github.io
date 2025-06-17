@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clip It | Instant Sports Highlight Capture</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Hero Section -->
+  <section class="hero-modern">
+    <div class="hero-bg-blur"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Never miss your<br>
+          <span class="gradient-text">best sports moments</span>
+        </h1>
+        <p class="hero-subtitle">
+          Capture epic plays instantly with a simple tap. No more searching through hours of footage—your highlights are saved automatically.
+        </p>
+        <div class="hero-cta">
+          <a href="https://apps.apple.com" class="btn-primary-modern">Download on App Store</a>
+          <a href="#features" class="btn-secondary-modern">Learn More</a>
+        </div>
+        <div class="hero-benefits">
+          <div class="benefit-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 10l3 3L15 6"></path>
+            </svg>
+            <span>One-Tap Capture</span>
+          </div>
+          <div class="benefit-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 10l3 3L15 6"></path>
+            </svg>
+            <span>Auto-Save Moments</span>
+          </div>
+          <div class="benefit-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 10l3 3L15 6"></path>
+            </svg>
+            <span>Instant Sharing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <h2 class="section-title">Capture every winning moment</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⌚</div>
+          <h3>Tap to Clip</h3>
+          <p>Hit an amazing shot? Just tap 'Clip It' on your Apple Watch or phone to save the moment instantly.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💾</div>
+          <h3>Smart Buffer</h3>
+          <p>Automatically saves the moments leading up to your tap, ensuring you never miss the complete action.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎬</div>
+          <h3>Edit & Enhance</h3>
+          <p>Trim, merge, and add effects to your clips. Create professional highlight reels in seconds.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📲</div>
+          <h3>Quick Share</h3>
+          <p>Share your highlights directly to social media, send to coaches, or save to your camera roll.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🏷️</div>
+          <h3>Tag & Organize</h3>
+          <p>Add tags, player names, and game details to easily find and organize your clips.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">☁️</div>
+          <h3>Cloud Backup</h3>
+          <p>All your clips are automatically backed up, so your best moments are always safe.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="features-section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="feature-card mb-3">
+          <h3 class="mb-3">How do I clip a moment?</h3>
+          <p>Just tap 'Clip It' on your Apple Watch or phone after a great play. The app automatically saves the moments leading up to your tap.</p>
+        </div>
+        <div class="feature-card mb-3">
+          <h3 class="mb-3">How long does Clip It record before I tap?</h3>
+          <p>Clip It saves the last several seconds leading up to your tap, ensuring you capture the full highlight. You can adjust this duration in the app settings.</p>
+        </div>
+        <div class="feature-card mb-3">
+          <h3 class="mb-3">Can I edit my clips?</h3>
+          <p>Yes! After capturing a moment, you can trim, merge, and add effects to your clips before sharing.</p>
+        </div>
+        <div class="feature-card mb-3">
+          <h3 class="mb-3">How do I share my clips?</h3>
+          <p>You can share clips directly to social media platforms, send them via messaging apps, or save them to your device's camera roll.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support Section -->
+  <section class="waitlist-section">
+    <div class="container">
+      <div class="waitlist-card">
+        <h2>Need Help?</h2>
+        <p>We're here to help you capture every amazing moment</p>
+        <div class="waitlist-form">
+          <a href="mailto:admin@brightwoodapps.com?subject=Clip%20It%20Support" class="btn-waitlist">
+            Contact Support
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script>
+    // Load header and footer
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("/header.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+          // Replace Heardwell branding with Clip It
+          const brandElement = document.querySelector('.navbar-brand');
+          if (brandElement) {
+            brandElement.innerHTML = 'Clip It';
+            brandElement.classList.remove('d-flex', 'align-items-center');
+          }
+        });
+      
+      fetch("/footer.html")
+        .then(response => response.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

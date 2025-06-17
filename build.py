@@ -7,6 +7,7 @@ This solves the fetch() issue on GitHub Pages.
 import os
 import re
 from pathlib import Path
+import glob
 
 def read_file(filepath):
     """Read content from a file."""
@@ -42,9 +43,21 @@ def main():
     header_content = read_file('header.html').strip()
     footer_content = read_file('footer.html').strip()
     
-    # List of HTML files to process (excluding header.html and footer.html)
-    html_files = [f for f in os.listdir('.') if f.endswith('.html') 
-                  and f not in ['header.html', 'footer.html']]
+    # Find all HTML files in the project (including subdirectories)
+    html_files = []
+    
+    # Add root HTML files
+    for f in os.listdir('.'):
+        if f.endswith('.html') and f not in ['header.html', 'footer.html']:
+            html_files.append(f)
+    
+    # Add HTML files from apps directory
+    for app_dir in glob.glob('apps/*/*.html'):
+        html_files.append(app_dir)
+    
+    # Add HTML files from legal directory
+    for legal_dir in glob.glob('legal/*/*.html'):
+        html_files.append(legal_dir)
     
     print(f"Processing {len(html_files)} HTML files...")
     

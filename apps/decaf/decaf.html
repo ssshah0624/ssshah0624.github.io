@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decaf Caffeine Tracker | Track Your Daily Caffeine Intake</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Hero Section -->
+  <section class="hero-modern">
+    <div class="hero-bg-blur"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Sleep better with<br>
+          <span class="gradient-text">smart caffeine tracking</span>
+        </h1>
+        <p class="hero-subtitle">
+          Monitor your daily caffeine intake, set healthy limits, and improve your sleep quality. 
+          Make informed choices about your caffeine consumption.
+        </p>
+        <div class="hero-cta">
+          <a href="https://apps.apple.com" class="btn-primary-modern">Download on App Store</a>
+          <a href="#features" class="btn-secondary-modern">Learn More</a>
+        </div>
+        <div class="hero-benefits">
+          <div class="benefit-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 10l3 3L15 6"></path>
+            </svg>
+            <span>Smart Tracking</span>
+          </div>
+          <div class="benefit-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 10l3 3L15 6"></path>
+            </svg>
+            <span>Sleep Insights</span>
+          </div>
+          <div class="benefit-item">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 10l3 3L15 6"></path>
+            </svg>
+            <span>Custom Alerts</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <h2 class="section-title">Everything you need for healthier habits</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">☕</div>
+          <h3>Quick Logging</h3>
+          <p>Log coffee, tea, and energy drinks with just a few taps. Our database includes thousands of beverages.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Detailed Analytics</h3>
+          <p>View your consumption patterns with beautiful charts and insights into your daily habits.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⏰</div>
+          <h3>Smart Alerts</h3>
+          <p>Get notifications when approaching your daily limit or when it's time to stop for better sleep.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌙</div>
+          <h3>Sleep Tracking</h3>
+          <p>See how caffeine affects your sleep quality with integrated sleep pattern analysis.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Personal Goals</h3>
+          <p>Set and track custom caffeine reduction goals tailored to your lifestyle.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Widget Support</h3>
+          <p>Quick access to logging and daily stats right from your home screen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="features-section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="feature-card mb-3">
+          <h3 class="mb-3">How do I add a new beverage?</h3>
+          <p>Simply tap the "+" button on the home screen and select your beverage type. You can choose from common options or create custom entries with specific caffeine content.</p>
+        </div>
+        <div class="feature-card mb-3">
+          <h3 class="mb-3">How accurate is the caffeine tracking?</h3>
+          <p>Our database includes accurate caffeine content for thousands of common beverages. For custom drinks, you can input specific amounts or use our smart estimation feature based on brewing method and serving size.</p>
+        </div>
+        <div class="feature-card mb-3">
+          <h3 class="mb-3">Can I set custom alerts?</h3>
+          <p>Yes! Go to Settings > Alerts to customize your daily caffeine limit and set up smart notifications. You can also set specific times for reminders and warnings.</p>
+        </div>
+        <div class="feature-card mb-3">
+          <h3 class="mb-3">How does sleep tracking work?</h3>
+          <p>Decaf integrates with Apple Health to analyze your sleep patterns alongside your caffeine intake, helping you understand the relationship between your consumption and sleep quality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support Section -->
+  <section class="waitlist-section">
+    <div class="container">
+      <div class="waitlist-card">
+        <h2>Need Help?</h2>
+        <p>We're here to help you build healthier caffeine habits</p>
+        <div class="waitlist-form">
+          <a href="mailto:admin@brightwoodapps.com?subject=Decaf%20Caffeine%20Tracker%20Support" class="btn-waitlist">
+            Contact Support
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script>
+    // Load header and footer
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("/header.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+          // Replace Heardwell branding with Decaf
+          const brandElement = document.querySelector('.navbar-brand');
+          if (brandElement) {
+            brandElement.innerHTML = 'Decaf';
+            brandElement.classList.remove('d-flex', 'align-items-center');
+          }
+        });
+      
+      fetch("/footer.html")
+        .then(response => response.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

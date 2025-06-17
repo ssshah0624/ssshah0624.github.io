@@ -12,3 +12,6 @@ exclude:
   - venv/
   - README.md
   - .gitignore
+  - build.py
+  - "*.pyc"
+  - "__pycache__/"
