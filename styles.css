@@ -811,40 +811,171 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+  /* Navigation */
+  .navbar {
+    padding: 0.75rem 1rem !important;
+  }
+  
+  .navbar-brand {
+    font-size: 1.125rem;
+  }
+  
+  /* Hero Section */
   .hero-modern {
     min-height: auto;
-    padding: 4rem 0 2rem;
+    padding: 3rem 0 2rem;
+  }
+  
+  .hero-container {
+    padding: 1rem;
+  }
+  
+  .badge-coming-soon {
+    font-size: 0.75rem;
+    padding: 0.375rem 1rem;
+    margin-bottom: 1.5rem;
   }
   
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
   }
   
-  .hero-title-medical {
-    font-size: 2rem;
+  .hero-title br {
+    display: none;
+  }
+  
+  .gradient-text {
+    display: inline;
   }
   
   .hero-subtitle {
-    font-size: 1.125rem;
-  }
-  
-  .hero-subtitle-medical {
-    font-size: 1.125rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
   }
   
   .hero-cta {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .btn-primary-modern,
+  .btn-secondary-modern {
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
   }
   
   .hero-benefits {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .benefit-item {
+    font-size: 0.875rem;
+  }
+  
+  /* Features Section */
+  .features-section {
+    padding: 3rem 0;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
   }
   
   .features-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  .feature-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.25rem;
+  }
+  
+  .feature-card p {
+    font-size: 0.875rem;
+  }
+  
+  /* Waitlist Section */
+  .waitlist-section {
+    padding: 3rem 0;
+  }
+  
+  .waitlist-card {
+    padding: 2rem 1.5rem;
+    margin: 0 1rem;
+  }
+  
+  .waitlist-card h2 {
+    font-size: 1.5rem;
+  }
+  
+  .waitlist-card p {
+    font-size: 1rem;
+  }
+  
+  .btn-waitlist {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+  }
+  
+  /* Legal Links */
+  .legal-links-section {
+    padding: 1.5rem 0;
+  }
+  
+  .legal-link {
+    font-size: 0.75rem;
+  }
+  
+  /* Other Apps Section */
+  .other-apps-section {
+    padding: 2rem 0;
+  }
+  
+  .other-apps-title {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .other-apps-grid {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .app-link {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  /* Medical Theme Mobile */
+  .hero-title-medical {
+    font-size: 1.75rem;
+  }
+  
+  .hero-subtitle-medical {
+    font-size: 1rem;
   }
   
   .hero-stats-card {
@@ -861,5 +992,30 @@ footer {
     display: block;
     width: 100%;
     margin-bottom: 1rem;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 0.875rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-card {
+    padding: 1.5rem 1rem;
+  }
+  
+  .btn-primary-modern,
+  .btn-secondary-modern {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
   }
 }
