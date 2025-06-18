@@ -118,6 +118,8 @@ body {
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
 .badge-coming-soon {
@@ -814,6 +816,7 @@ footer {
   /* Navigation */
   .navbar {
     padding: 0.75rem 1rem !important;
+    position: relative;
   }
   
   .navbar-brand {
@@ -822,12 +825,26 @@ footer {
   
   /* Hero Section */
   .hero-modern {
-    min-height: auto;
-    padding: 3rem 0 2rem;
+    min-height: 70vh;
+    padding: 4rem 0 3rem;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #F9FAFB 0%, #EBF4FF 100%);
+  }
+  
+  .hero-bg-blur {
+    display: none; /* Hide blur effect on mobile for performance */
   }
   
   .hero-container {
-    padding: 1rem;
+    padding: 0 1rem;
+    width: 100%;
+  }
+  
+  .hero-content {
+    width: 100%;
   }
   
   .badge-coming-soon {
@@ -840,6 +857,7 @@ footer {
     font-size: 1.75rem;
     line-height: 1.2;
     margin-bottom: 1rem;
+    color: var(--text-primary);
   }
   
   .hero-title br {
@@ -848,6 +866,10 @@ footer {
   
   .gradient-text {
     display: inline;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
   
   .hero-subtitle {
