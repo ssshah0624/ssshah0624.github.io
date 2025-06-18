@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Heardwell</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css">
+  
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .hero {
+      background: linear-gradient(135deg, #0066CC 0%, #0052A3 100%);
+      min-height: 40vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 4rem 0;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      opacity: 0.9;
+    }
+    .main-content {
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 0 1rem;
+    }
+    .main-content h2 {
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+    }
+    .main-content h3 {
+      font-weight: 600;
+      color: #2d3748;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+    }
+    .main-content p {
+      color: #4a5568;
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+    .main-content ul {
+      color: #4a5568;
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+    .main-content table {
+      width: 100%;
+      margin: 2rem 0;
+      border-collapse: collapse;
+    }
+    .main-content table th {
+      background: #f7fafc;
+      padding: 1rem;
+      text-align: left;
+      font-weight: 600;
+      border: 1px solid #e2e8f0;
+    }
+    .main-content table td {
+      padding: 1rem;
+      border: 1px solid #e2e8f0;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #0066CC;
+      text-decoration: none;
+      font-weight: 500;
+      margin-bottom: 2rem;
+    }
+    .back-link:hover {
+      color: #0052A3;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Privacy Policy</h1>
+      <p>Last updated: June 17, 2025</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <a href="/index.html" class="back-link">
+      <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M15 18l-6-6 6-6"/>
+      </svg>
+      Back to Heardwell
+    </a>
+
+    <h2>1. Introduction</h2>
+    <p>Heardwell, Inc. ("Heardwell," "we," "our," or "us") provides a HIPAA-compliant clinical documentation platform that converts live audio into transcripts and structured clinical notes for use by licensed clinicians and their affiliated clinics (collectively, "you" or "your"). This Privacy Policy explains how we collect, use, disclose, and safeguard information—including "protected health information" ("PHI") as defined by the Health Insurance Portability and Accountability Act of 1996 ("HIPAA")—when you access or use the Heardwell application (the "Service"). It applies only to the Service; it does not cover our public marketing website or any other products.</p>
+
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 Clinician Account Information</h3>
+    <ul>
+      <li>Email address (used for authentication and account recovery).</li>
+      <li>Basic usage metrics such as total minutes of audio processed.</li>
+      <li>We do not collect payment-card data, precise geolocation, or device analytics.</li>
+    </ul>
+
+    <h3>2.2 Patient Information (PHI)</h3>
+    <p>When you record a session through Heardwell, the following patient data may be processed:</p>
+    <ul>
+      <li>Raw session audio – held in memory only during real-time processing (average &lt; 5 minutes) and then permanently deleted.</li>
+      <li>Transcripts of the session.</li>
+      <li>Structured clinical notes you elect to store.</li>
+    </ul>
+    <p>Both transcripts and notes are encrypted at rest and constitute PHI when they can be linked to an individual patient.</p>
+
+    <h2>3. How We Use Information</h2>
+    <p>We use the information described above solely to:</p>
+    <ul>
+      <li>Deliver and maintain the Service (e.g., generate transcripts and notes).</li>
+      <li>Provide customer support and troubleshoot reported issues.</li>
+      <li>Generate non-identifiable operational metrics (e.g., aggregate minutes processed) to ensure system reliability.</li>
+    </ul>
+    <p>We do not:</p>
+    <ul>
+      <li>Train in-house or third-party machine-learning models on customer data.</li>
+      <li>Share data with external vendors for their own model training.</li>
+      <li>Sell, rent, or otherwise monetize clinician or patient information.</li>
+    </ul>
+
+    <h2>4. Subprocessors &amp; Data Hosting</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Purpose</th>
+          <th>Subprocessor</th>
+          <th>Region</th>
+          <th>BAA Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Primary cloud infrastructure &amp; encrypted database</td>
+          <td>Render</td>
+          <td>Virginia, USA</td>
+          <td>Executed</td>
+        </tr>
+        <tr>
+          <td>(Forthcoming) Large-language-model API*</td>
+          <td>OpenAI</td>
+          <td>USA</td>
+          <td>In progress</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><em>* No PHI is transmitted to OpenAI until a Business Associate Agreement is fully executed and active.</em></p>
+    <p>All subprocessors that may handle PHI must sign a BAA with Heardwell prior to receiving any such data.</p>
+
+    <h2>5. Retention &amp; Deletion</h2>
+    <ul>
+      <li><strong>Raw audio</strong> – ephemerally held in RAM and deleted automatically after processing (typically within five minutes).</li>
+      <li><strong>Transcripts &amp; structured notes</strong> – retained until the clinician deletes them. Deletion can be performed at any time within the app's dashboard; the records are then removed from live storage and scheduled for backup erasure within 30 days.</li>
+      <li><strong>Usage metrics</strong> – retained as long as needed for internal accounting and service integrity.</li>
+    </ul>
+    <p>Clinicians can export stored transcripts and notes at any time through the in-app export feature.</p>
+
+    <h2>6. Security Measures</h2>
+    <ul>
+      <li>Encryption in transit: TLS 1.2 or higher.</li>
+      <li>Encryption at rest: AES-256.</li>
+      <li>Automated vulnerability scanning using Trivy prior to every deployment.</li>
+      <li>Principle-of-least-privilege, role-based access controls, and audit logging for all production systems.</li>
+      <li>Incident-response procedures aligned with HIPAA breach-notification requirements.</li>
+    </ul>
+    <p>Heardwell has not yet completed third-party audits (e.g., SOC 2 or HITRUST). We continually assess our controls and will update this Policy if certifications are obtained.</p>
+
+    <h2>7. HIPAA Commitments</h2>
+    <ul>
+      <li>Heardwell acts as a Business Associate to Covered Entities under 45 C.F.R. § 160.103.</li>
+      <li>We sign Business Associate Agreements with each Covered Entity and with all downstream subprocessors before any PHI is shared.</li>
+      <li>PHI is used only to provide, maintain, and secure the Service or as otherwise permitted by the BAA and HIPAA.</li>
+      <li>Patients do not interact directly with Heardwell; all PHI requests must be initiated by the treating clinician or clinic.</li>
+    </ul>
+
+    <h2>8. State-Specific Privacy Rights</h2>
+    <p>Heardwell currently operates only in the United States and does not target residents of the European Economic Area or United Kingdom. If U.S. state privacy laws (e.g., CCPA) grant additional rights to individual patients, those requests should be submitted through the clinician or clinic that controls the records. Heardwell will assist the Covered Entity in responding, consistent with HIPAA and the applicable BAA.</p>
+
+    <h2>9. Children's Privacy</h2>
+    <p>Heardwell is not directed to individuals under 13 and does not knowingly collect information about children. Clinics serving pediatric patients must ensure proper consents are in place before using the Service.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may revise this Privacy Policy from time to time. If we make material changes, we will notify account administrators via email and post the updated version in the application dashboard. The "Last updated" date at the top of this page will indicate when changes become effective.</p>
+
+    <h2>11. Contact Us</h2>
+    <p>For any questions about this Privacy Policy or our privacy practices, please contact:</p>
+    <p>Email: <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a></p>
+    <p>Heardwell, Inc.</p>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Load header and footer
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("/header.html")
+        .then(response => response.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+      
+      fetch("/footer.html")
+        .then(response => response.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+    });
+  </script>
+</body>
+</html>
