@@ -35,77 +35,87 @@
   </style>
 </head>
 <body>
+  <!-- Header placeholder -->
   <div id="header"></div>
-  <section class="hero"><div class="container"><h1>Privacy Policy</h1><p>Last updated: July 2, 2025</p></div></section>
+  <section class="hero"><div class="container"><h1>Privacy Policy</h1><p>Last updated: July 2, 2025</p></div></section>
   <div class="main-content">
     <a href="/index.html" class="back-link"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>Back to Heardwell</a>
 
     <h2 id="intro">1. Introduction</h2>
-    <p>Brightwood Apps Inc. (<strong>“Brightwood Apps,” “we,” “our,”</strong> or <strong>“us”</strong>)—doing business as <strong>Heardwell</strong>—provides a HIPAA‑compliant clinical‑documentation platform (the <strong>“Service”</strong>) that converts live audio into transcripts and structured SOAP notes for licensed clinicians and their clinics (<strong>“you” or “your”</strong>). This Privacy Policy explains how we collect, use, disclose, and safeguard Personal Information and <em>Protected Health Information</em> (<strong>PHI</strong>) under the Health Insurance Portability and Accountability Act of 1996 (<strong>HIPAA</strong>). It covers only in‑app experiences—<u>not</u> our marketing website or social media.</p>
+    <p>Brightwood Apps Inc. (<strong>"Brightwood Apps," "we," "our,"</strong> or <strong>"us"</strong>)—doing business as <strong>Heardwell</strong>—provides a HIPAA‑compliant clinical‑documentation platform (the <strong>"Service"</strong>) that converts live audio into transcripts and structured SOAP notes for licensed clinicians and their clinics (<strong>"you" or "your"</strong>). This Privacy Policy explains how we collect, use, disclose, and safeguard Personal Information and <em>Protected Health Information</em> (<strong>PHI</strong>) under the Health Insurance Portability and Accountability Act of 1996 (<strong>HIPAA</strong>). It covers only in‑app experiences—<u>not</u> our marketing website or social media.</p>
 
-    <h2 id="scope">2. Scope &amp; Key Definitions</h2>
-    <p>This Policy applies to (i) <strong>Personal Information</strong> that identifies or can reasonably identify a natural person, and (ii) <strong>PHI</strong>—oral or recorded information about a patient’s health status or treatment.</p>
+    <h2 id="scope">2. Scope &amp; Key Definitions</h2>
+    <p>This Policy applies to (i) <strong>Personal Information</strong> that identifies or can reasonably identify a natural person, and (ii) <strong>PHI</strong>—oral or recorded information about a patient's health status or treatment.</p>
 
-    <h2 id="information-we-collect">3. Information We Collect</h2>
-    <h3 id="clinician-info">3.1 Clinician & Account Information</h3>
+    <h2 id="information-we-collect">3. Information We Collect</h2>
+    <h3 id="clinician-info">3.1 Clinician & Account Information</h3>
     <ul><li>Name, work email, hashed password.</li><li>Clinic name, NPI (if provided).</li><li>Subscription tier, usage metrics (minutes processed).</li><li>Support tickets and survey responses.</li></ul>
-    <h3 id="patient-info">3.2 Patient Information (PHI)</h3>
+    <h3 id="patient-info">3.2 Patient Information (PHI)</h3>
     <p>When you record a consultation, we process:</p>
-    <ul><li><strong>Raw audio</strong>—streamed to our servers and forwarded to <strong>Microsoft Azure</strong> for real‑time speech‑to‑text; never stored.</li><li><strong>Verbatim transcripts</strong>.</li><li><strong>Structured SOAP notes</strong> plus any edits.</li></ul>
+    <ul><li><strong>Raw audio</strong>—streamed to our servers and forwarded to <strong>Microsoft Azure</strong> for real‑time speech‑to‑text; never stored.</li><li><strong>Verbatim transcripts</strong>.</li><li><strong>Structured SOAP notes</strong> plus any edits.</li></ul>
     <p>Transcripts and notes are encrypted at rest and constitute PHI when linkable to a patient.</p>
-    <h3 id="technical-info">3.3 Technical & Device Data</h3>
-    <ul><li>IP address, user‑agent, timestamps, error traces—retained <strong>7 years</strong>; contain <u>no</u> PHI.</li><li>Device/OS/app version for diagnostics.</li><li>First‑party cookies/local storage.</li></ul>
-    <h3 id="cookies">3.4 Cookies & Tracking</h3>
+    <h3 id="technical-info">3.3 Technical & Device Data</h3>
+    <ul><li>IP address, user‑agent, timestamps, error traces—retained <strong>7 years</strong>; contain <u>no</u> PHI.</li><li>Device/OS/app version for diagnostics.</li><li>First‑party cookies/local storage.</li></ul>
+    <h3 id="cookies">3.4 Cookies & Tracking</h3>
     <p>We set only strictly‑necessary cookies for authentication, session management, and CSRF protection—no advertising cookies.</p>
 
-    <h2 id="how-we-use">4. How We Use Information</h2>
+    <h2 id="how-we-use">4. How We Use Information</h2>
     <ul><li>Provide, maintain, and improve the Service.</li><li>Authenticate users and secure accounts.</li><li>Offer support and resolve incidents.</li><li>Generate de‑identified metrics for reliability.</li><li>Comply with law and BAAs.</li></ul>
     <p><strong>We never sell or train models on PHI without written consent.</strong></p>
 
-    <h2 id="legal-basis">5. Legal Basis (EU/UK Users)</h2>
+    <h2 id="legal-basis">5. Legal Basis (EU/UK Users)</h2>
     <ul><li>Contractual necessity.</li><li>Legitimate interests (security, improvement).</li><li>Legal obligation.</li><li>Consent.</li></ul>
 
-    <h2 id="sharing">6. Sharing & Disclosure</h2>
+    <h2 id="sharing">6. Sharing & Disclosure</h2>
     <h3 id="subprocessors">6.1 Subprocessors</h3>
     <p>Each subprocessor signs a BAA before handling PHI:</p>
-    <table><thead><tr><th>Purpose</th><th>Subprocessor</th><th>Region</th><th>HIPAA BAA</th></tr></thead><tbody>
-      <tr><td>Hosting &amp; encrypted DB</td><td>Render, Inc.</td><td>US‑East</td><td>Executed</td></tr>
-      <tr><td>Speech‑to‑text engine*</td><td>Microsoft Azure</td><td>United States</td><td>Executed</td></tr>
-      <tr><td>Error monitoring &amp; logs</td><td>Papertrail</td><td>United States</td><td>N/A (no PHI)</td></tr>
+    <table><thead><tr><th>Purpose</th><th>Subprocessor</th><th>Region</th><th>HIPAA BAA</th></tr></thead><tbody>
+      <tr><td>Hosting & encrypted DB</td><td>Render, Inc.</td><td>US‑East</td><td>Executed</td></tr>
+      <tr><td>Speech‑to‑text engine*</td><td>Microsoft Azure</td><td>United States</td><td>Executed</td></tr>
+      <tr><td>Error monitoring & logs</td><td>Papertrail</td><td>United States</td><td>N/A (no PHI)</td></tr>
     </tbody></table>
     <p><em>*Audio is streamed to Azure only after a BAA is in place.</em></p>
-    <h3 id="legal-compliance">6.2 Legal Requests</h3><p>We disclose information when required by law and, where permitted, notify affected customers.</p>
-    <h3 id="business-transfers">6.3 Business Transfers</h3><p>Information may transfer in a merger or acquisition; we will notify account admins.</p>
+    <h3 id="legal-compliance">6.2 Legal Requests</h3><p>We disclose information when required by law and, where permitted, notify affected customers.</p>
+    <h3 id="business-transfers">6.3 Business Transfers</h3><p>Information may transfer in a merger or acquisition; we will notify account admins.</p>
 
     <h2 id="cookies-section">7. Cookies</h2>
     <table><thead><tr><th>Name</th><th>Purpose</th><th>Expiry</th><th>Type</th></tr></thead><tbody>
-      <tr><td>hw_session</td><td>User session</td><td>12 hours</td><td>Strictly‑necessary</td></tr>
+      <tr><td>hw_session</td><td>User session</td><td>12 hours</td><td>Strictly‑necessary</td></tr>
       <tr><td>csrf_token</td><td>CSRF protection</td><td>Session</td><td>Strictly‑necessary</td></tr>
     </tbody></table>
 
-    <h2 id="retention">8. Data Retention & Deletion</h2>
-    <ul><li><strong>Raw audio</strong>—deleted within 5 minutes post‑processing.</li><li><strong>Transcripts/notes</strong>—kept until you delete; backups purged within 30 days.</li><li><strong>Error logs</strong>—retained <strong>7 years</strong>; no PHI.</li><li><strong>Account/billing records</strong>—7 years for compliance.</li></ul>
+    <h2 id="retention">8. Data Retention & Deletion</h2>
+    <ul><li><strong>Raw audio</strong>—deleted within 5 minutes post‑processing.</li><li><strong>Transcripts/notes</strong>—kept until you delete; backups purged within 30 days.</li><li><strong>Error logs</strong>—retained <strong>7 years</strong>; no PHI.</li><li><strong>Account/billing records</strong>—7 years for compliance.</li></ul>
 
-    <h2 id="security">9. Security Measures</h2>
-    <ul><li>TLS 1.2+ in transit; AES‑256 at rest.</li><li>Zero‑trust architecture; RBAC.</li><li>MFA for admin accounts.</li><li>Continuous vulnerability scanning; weekly patches.</li><li>Annual third‑party pen‑testing.</li><li>HIPAA‑aligned incident‑response plan.</li></ul>
+    <h2 id="security">9. Security Measures</h2>
+    <ul><li>TLS 1.2+ in transit; AES‑256 at rest.</li><li>Zero‑trust architecture; RBAC.</li><li>MFA for admin accounts.</li><li>Continuous vulnerability scanning; weekly patches.</li><li>Annual third‑party pen‑testing.</li><li>HIPAA‑aligned incident‑response plan.</li></ul>
 
-    <h2 id="rights">10. Your Rights & Choices</h2>
-    <p>Contact your clinic admin or email <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a> to exercise access, correction, deletion, restriction, or portability rights. We respond within 30 days.</p>
-    <h3 id="state-rights">10.1 State‑Specific Rights</h3><p>We do not “sell” Personal Information under state privacy laws.</p>
+    <h2 id="rights">10. Your Rights & Choices</h2>
+    <p>Contact your clinic admin or email <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a> to exercise access, correction, deletion, restriction, or portability rights. We respond within 30 days.</p>
+    <h3 id="state-rights">10.1 State‑Specific Rights</h3><p>We do not "sell" Personal Information under state privacy laws.</p>
 
-    <h2 id="hipaa">11. HIPAA Commitments</h2>
-    <ul><li>Brightwood Apps acts as a Business Associate.</li><li>Executes BAAs with customers and subprocessors.</li><li>Uses PHI only to provide the Service.</li><li>Maintains HIPAA‑required safeguards and logs.</li></ul>
+    <h2 id="hipaa">11. HIPAA Commitments</h2>
+    <ul><li>Brightwood Apps acts as a Business Associate.</li><li>Executes BAAs with customers and subprocessors.</li><li>Uses PHI only to provide the Service.</li><li>Maintains HIPAA‑required safeguards and logs.</li></ul>
 
-    <h2 id="international">12. International Transfers</h2><p>All production data resides in the USA. Cross‑border transfers rely on SCCs.</p>
-    <h2 id="children">13. Children’s Privacy</h2><p>Not directed to children under 13; pediatric clinics must obtain consents.</p>
-    <h2 id="dnt">14. “Do Not Track”</h2><p>We do not track users for advertising and therefore ignore DNT signals.</p>
-    <h2 id="changes">15. Changes to This Policy</h2><p>Material updates will be emailed to admins and posted in‑app 30 days before effective.</p>
-    <h2 id="contact">16. Contact Us</h2><p>Email: <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a><br>Mail: Brightwood Apps Inc., 228 Park Ave S #81318, New York, NY 10003 USA</p>
+    <h2 id="international">12. International Transfers</h2><p>All production data resides in the USA. Cross‑border transfers rely on SCCs.</p>
+    <h2 id="children">13. Children's Privacy</h2><p>Not directed to children under 13; pediatric clinics must obtain consents.</p>
+    <h2 id="dnt">14. "Do Not Track"</h2><p>We do not track users for advertising and therefore ignore DNT signals.</p>
+    <h2 id="changes">15. Changes to This Policy</h2><p>Material updates will be emailed to admins and posted in‑app 30 days before effective.</p>
+    <h2 id="contact">16. Contact Us</h2><p>Email: <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a><br>Mail: Brightwood Apps Inc., 228 Park Ave S #81318, New York, NY 10003 USA</p>
   </div>
   <div id="footer"></div>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script>document.addEventListener('DOMContentLoaded',()=>{['header','footer'].forEach(id=>{const el=document.getElementById(id); if(el){fetch('/'+id+'.html').then(r=>r.text()).then(t=>{el.innerHTML=t;});}});});</script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (document.getElementById('header')) {
+        fetch('/header.html').then(r => r.text()).then(t => { document.getElementById('header').innerHTML = t; });
+      }
+      if (document.getElementById('footer')) {
+        fetch('/footer.html').then(r => r.text()).then(t => { document.getElementById('footer').innerHTML = t; });
+      }
+    });
+  </script>
 </body>
 </html>
