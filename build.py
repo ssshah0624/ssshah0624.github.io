@@ -66,7 +66,10 @@ def main():
         content = read_file(html_file)
         
         # Check if file uses the fetch() pattern
-        if 'fetch("header.html")' in content or 'fetch("footer.html")' in content:
+        if any(pattern in content for pattern in ['fetch("header.html")',
+                                                 'fetch("footer.html")',
+                                                 'fetch("/header.html")',
+                                                 'fetch("/footer.html")']):
             # Inline the header and footer
             new_content = inline_includes(content, header_content, footer_content)
             write_file(html_file, new_content)

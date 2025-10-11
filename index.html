@@ -3,172 +3,259 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heardwell | Clinical Documentation for Healthcare Professionals</title>
-  
+  <title>Brightwood Apps | Mobile App Studio</title>
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link href="styles.css" rel="stylesheet">
+  <link href="/styles.css" rel="stylesheet">
 </head>
 <body>
 
   <!-- Header -->
   <div id="header">
 <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <img src="/assets/images/Heardwell-Icon.png" alt="Heardwell" height="32" class="mr-2">
-      <span>Heardwell</span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#learn-more">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#waitlist">Join Waitlist</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Other Apps
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/index.html"><strong>Heardwell</strong> <span class="badge badge-primary ml-2">New</span></a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="/apps/trip-planner/trip-planner.html">Trip Planner Plus</a>
-            <a class="dropdown-item" href="/apps/decaf/decaf.html">Decaf Caffeine Tracker</a>
-            <a class="dropdown-item" href="/apps/baby-feeding-tracker/baby-feeding-tracker.html">Baby Feeding Tracker +</a>
-            <a class="dropdown-item" href="/apps/clipit/clipit.html">Clip It</a>
-            <a class="dropdown-item" href="/apps/recentcontacts/recentcontacts.html">Recent Contacts</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <a class="navbar-brand" href="/index.html">Brightwood Apps</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto align-items-lg-center">
+      <li class="nav-item">
+        <a class="nav-link" href="/index.html#studio">Studio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/index.html#apps">Apps</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="appsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Explore
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="appsDropdown">
+          <h6 class="dropdown-header">Featured</h6>
+          <a class="dropdown-item" href="/apps/heardwell/heardwell.html">Heardwell</a>
+          <a class="dropdown-item" href="/apps/text-back-ai/text-back-ai.html">Text Back AI</a>
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">More Apps</h6>
+          <a class="dropdown-item" href="/apps/trip-planner/trip-planner.html">Trip Planner Plus</a>
+          <a class="dropdown-item" href="/apps/decaf/decaf.html">Decaf Caffeine Tracker</a>
+          <a class="dropdown-item" href="/apps/baby-feeding-tracker/baby-feeding-tracker.html">Baby Feeding Tracker +</a>
+          <a class="dropdown-item" href="/apps/clipit/clipit.html">Clip It</a>
+          <a class="dropdown-item" href="/apps/recentcontacts/recentcontacts.html">Recent Contacts</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="mailto:admin@brightwoodapps.com">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 </div>
 
-  <!-- Hero Section -->
-  <section class="hero-modern">
-    <div class="hero-bg-blur"></div>
-    <div class="container hero-container">
-      <div class="hero-content">
-        <div class="badge-coming-soon">Coming Soon</div>
-        <h1 class="hero-title">
-          Turn patient conversations into<br>
-          <span class="gradient-text">perfect clinical documentation</span>
+  <main>
+    <!-- Hero / Studio Overview -->
+    <section class="studio-hero" id="studio">
+      <div class="container">
+        <div class="studio-hero__eyebrow">Mobile Product Studio</div>
+        <h1 class="studio-hero__title">
+          Building thoughtful mobile apps that solve day-to-day problems.
         </h1>
-        <p class="hero-subtitle">
-          Advanced audio transcription that lifts the paperwork burden off busy clinicians. 
-          Save hours daily with hands-free, real-time note generation while keeping your focus on patients.
+        <p class="studio-hero__subtitle">
+          Brightwood Apps is an independent studio crafting iOS experiences with purposeful design and dependable engineering. We partner with creators, founders, and internal teams to launch polished products that feel native from day one.
         </p>
-        <div class="hero-cta">
-          <a href="#waitlist" class="btn-primary-modern">Join the Waitlist</a>
-          <a href="#learn-more" class="btn-secondary-modern">Learn More</a>
+        <div class="studio-hero__actions">
+          <a class="btn-primary-modern" href="#apps">Browse Our Apps</a>
+          <a class="btn-secondary-modern" href="mailto:admin@brightwoodapps.com">Partner With Us</a>
         </div>
-        <div class="hero-benefits">
-          <div class="benefit-item">
-            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 10l3 3L15 6"></path>
-            </svg>
-            <span>Secure & Private</span>
+        <div class="studio-metrics">
+          <div class="studio-metric">
+            <span class="studio-metric__value">7+</span>
+            <span class="studio-metric__label">iOS launches</span>
           </div>
-          <div class="benefit-item">
-            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 10l3 3L15 6"></path>
-            </svg>
-            <span>Save Hours Daily</span>
+          <div class="studio-metric">
+            <span class="studio-metric__value">90k+</span>
+            <span class="studio-metric__label">downloads</span>
           </div>
-          <div class="benefit-item">
-            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 10l3 3L15 6"></path>
-            </svg>
-            <span>Real-Time Generation</span>
+          <div class="studio-metric">
+            <span class="studio-metric__value">2014</span>
+            <span class="studio-metric__label">founded</span>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Features Section -->
-  <section class="features-section" id="learn-more">
-    <div class="container">
-      <h2 class="section-title">Why clinicians choose Heardwell</h2>
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="feature-icon">🎙️</div>
-          <h3>Hands-Free Documentation</h3>
-          <p>Simply speak naturally with your patients. Heardwell captures every detail and transforms it into structured clinical notes.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">🔒</div>
-          <h3>Secure & Private</h3>
-          <p>Strong security measures ensure patient data is protected. End-to-end encryption and privacy controls built in.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">⚡</div>
-          <h3>Real-Time Processing</h3>
-          <p>Get polished clinical notes instantly. No waiting, no delays - documentation is ready when your appointment ends.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">📈</div>
-          <h3>Boost Practice Revenue</h3>
-          <p>See more patients by eliminating charting time. Add extra appointments and increase throughput without extending hours.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">🎯</div>
-          <h3>Error-Free Records</h3>
-          <p>Consistent, accurate documentation every time. Reduce errors and ensure comprehensive patient records.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">😌</div>
-          <h3>Reduce Burnout</h3>
-          <p>Spend time with patients, not paperwork. Go home on time and rediscover why you became a clinician.</p>
+    <!-- Studio Capabilities -->
+    <section class="studio-capabilities">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="capability-card">
+              <h3>Strategy & Research</h3>
+              <p>We validate ideas with focused discovery, aligning scope, timelines, and success metrics before a single line of code ships.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="capability-card">
+              <h3>Design & Prototyping</h3>
+              <p>High-fidelity prototypes, motion studies, and accessible design systems ensure your app feels crafted specifically for iOS.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="capability-card">
+              <h3>Launch & Liftoff</h3>
+              <p>We manage App Store readiness, onboarding, and analytics, then iterate fast with data-informed updates and A/B experiments.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Waitlist Section -->
-  <section class="waitlist-section" id="waitlist">
-    <div class="container">
-      <div class="waitlist-card">
-        <h2>Be among the first to experience Heardwell</h2>
-        <p>Join our waitlist to get early access and exclusive launch pricing</p>
-        <div class="waitlist-form">
-          <a href="mailto:admin@brightwoodapps.com?subject=Heardwell%20Waitlist" class="btn-waitlist">
-            Join Waitlist via Email
-          </a>
+    <!-- App Highlights -->
+    <section class="apps-showcase" id="apps">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Featured Apps</h2>
+          <p>Browse a sample of the products we maintain. Each app is crafted end-to-end: strategy, design, engineering, launch, and ongoing support.</p>
+        </div>
+        <div class="apps-showcase__track">
+
+          <article class="app-spotlight">
+            <header>
+              <span class="app-spotlight__eyebrow">Clinical Documentation</span>
+              <h3>Heardwell</h3>
+            </header>
+            <p>Hands-free note generation that keeps clinicians focused on their patients. Heardwell transcribes visits securely, then structures summaries for EMR handoff in seconds.</p>
+            <ul>
+              <li>Voice capture with on-device privacy</li>
+              <li>Structured SOAP outputs and checklist templates</li>
+              <li>Works across specialties and care settings</li>
+            </ul>
+            <div class="app-spotlight__actions">
+              <a class="btn-inline" href="/apps/heardwell/heardwell.html">View app</a>
+              <a class="btn-inline" href="/legal/heardwell/heardwell-privacy.html">Privacy</a>
+            </div>
+          </article>
+
+          <article class="app-spotlight">
+            <header>
+              <span class="app-spotlight__eyebrow">AI Messaging</span>
+              <h3>Text Back AI</h3>
+            </header>
+            <p>Instant, natural replies for every conversation. Upload a screenshot, choose a tone, and Text Back AI drafts responses that sound like you—fast.</p>
+            <ul>
+              <li>Understands full chat context from screenshots</li>
+              <li>Multiple tone presets: funny, warm, confident, professional</li>
+              <li>Single-tap copy and share to keep chats moving</li>
+            </ul>
+            <div class="app-spotlight__actions">
+              <a class="btn-inline" href="/apps/text-back-ai/text-back-ai.html">View app</a>
+              <a class="btn-inline" href="/legal/text-back-ai/text-back-ai-privacy.html">Privacy</a>
+            </div>
+          </article>
+
+          <article class="app-spotlight">
+            <header>
+              <span class="app-spotlight__eyebrow">Travel Planning</span>
+              <h3>Trip Planner Plus</h3>
+            </header>
+            <p>Collaborative itineraries with live updates, offline access, and smart packing lists so every traveler stays in sync from departure to return.</p>
+            <ul>
+              <li>Shared timelines with role-based editing</li>
+              <li>Location-aware reminders and reservations</li>
+              <li>Deep integrations with Maps, Wallet, and Calendar</li>
+            </ul>
+            <div class="app-spotlight__actions">
+              <a class="btn-inline" href="/apps/trip-planner/trip-planner.html">View app</a>
+              <a class="btn-inline" href="/legal/trip-planner/trip-planner-privacy.html">Privacy</a>
+            </div>
+          </article>
+
+          <article class="app-spotlight">
+            <header>
+              <span class="app-spotlight__eyebrow">Lifestyle & Wellness</span>
+              <h3>Decaf Caffeine Tracker</h3>
+            </header>
+            <p>Understand your daily caffeine intake across drinks, track energy dips, and taper caffeine responsibly with personalized recommendations.</p>
+            <ul>
+              <li>Log beverages with barcode scanning</li>
+              <li>Daily insights with Apple Health syncing</li>
+              <li>Goal-based reminders tailored to your routine</li>
+            </ul>
+            <div class="app-spotlight__actions">
+              <a class="btn-inline" href="/apps/decaf/decaf.html">View app</a>
+              <a class="btn-inline" href="/legal/decaf/decaf-privacy.html">Privacy</a>
+            </div>
+          </article>
+
+          <article class="app-spotlight">
+            <header>
+              <span class="app-spotlight__eyebrow">Family Care</span>
+              <h3>Baby Feeding Tracker +</h3>
+            </header>
+            <p>Keep pediatricians and caretakers up to date with feedings, sleep, and growth trends—all synchronized across the family.</p>
+            <ul>
+              <li>Real-time sync for caregivers and partners</li>
+              <li>Charts for pediatric appointments</li>
+              <li>Alerts for next feeding or diaper change</li>
+            </ul>
+            <div class="app-spotlight__actions">
+              <a class="btn-inline" href="/apps/baby-feeding-tracker/baby-feeding-tracker.html">View app</a>
+              <a class="btn-inline" href="/legal/baby-feeding-tracker/baby-feeding-tracker-privacy.html">Privacy</a>
+            </div>
+          </article>
+
+          <article class="app-spotlight">
+            <header>
+              <span class="app-spotlight__eyebrow">Productivity</span>
+              <h3>Recent Contacts</h3>
+            </header>
+            <p>Bring your favorite people front and center with a dynamic widget that surfaces who you reach out to the most—right when you need them.</p>
+            <ul>
+              <li>Smart rotation based on recency and frequency</li>
+              <li>One-tap call, message, or FaceTime shortcuts</li>
+              <li>Privacy-first: no contacts stored server-side</li>
+            </ul>
+            <div class="app-spotlight__actions">
+              <a class="btn-inline" href="/apps/recentcontacts/recentcontacts.html">View app</a>
+              <a class="btn-inline" href="/legal/recentcontacts/recentcontacts-privacy.html">Privacy</a>
+            </div>
+          </article>
+
+          <article class="app-spotlight">
+            <header>
+              <span class="app-spotlight__eyebrow">Sports & Replay</span>
+              <h3>Clip It</h3>
+            </header>
+            <p>Save highlight reels instantly on the field. Clip It buffers gameplay, so a single tap captures every clutch play with pro-grade polish.</p>
+            <ul>
+              <li>Apple Watch and iPhone capture controls</li>
+              <li>Automatic editing with share-ready exports</li>
+              <li>Cloud backups to keep memories safe</li>
+            </ul>
+            <div class="app-spotlight__actions">
+              <a class="btn-inline" href="/apps/clipit/clipit.html">View app</a>
+              <a class="btn-inline" href="/legal/clipit/clipit-privacy.html">Privacy</a>
+            </div>
+          </article>
+
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Support Section -->
-  <section class="contact-support-section">
-    <div class="container text-center">
-      <h3>Need Help?</h3>
-      <p>Our team is here to assist you with any questions about Heardwell</p>
-      <a href="mailto:admin@brightwoodapps.com?subject=Heardwell%20Support" class="btn-contact-support">
-        Contact Support
-      </a>
-    </div>
-  </section>
-
-  <!-- Legal Links -->
-  <section class="legal-links-section">
-    <div class="container text-center">
-      <div class="legal-links">
-        <a href="/legal/heardwell/heardwell-privacy.html" class="legal-link">Privacy Policy</a>
-        <span class="legal-separator">•</span>
-        <a href="/legal/heardwell/heardwell-terms.html" class="legal-link">Terms of Use</a>
+    <!-- Contact -->
+    <section class="studio-contact">
+      <div class="container">
+        <div class="studio-contact__card">
+          <h2>Have a concept to launch?</h2>
+          <p>We help founders, clinicians, and operations teams bring ideas to the App Store quickly. Tell us about your product and we’ll reach out within two business days.</p>
+          <a class="btn-primary-modern" href="mailto:admin@brightwoodapps.com?subject=Brightwood%20Apps%20Project%20Inquiry">Start the conversation</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <!-- Footer -->
   <div id="footer">
@@ -179,20 +266,9 @@
 </footer>
 </div>
 
-  <script>
-    // Load header and footer
-    document.addEventListener("DOMContentLoaded", function() {
-      fetch("header.html")
-        .then(response => response.text())
-        .then(data => document.getElementById("header").innerHTML = data);
-      
-      fetch("footer.html")
-        .then(response => response.text())
-        .then(data => document.getElementById("footer").innerHTML = data);
-    });
-  </script>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/scripts.js"></script>
+  
 </body>
 </html>
