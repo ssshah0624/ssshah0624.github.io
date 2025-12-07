@@ -131,6 +131,7 @@ export const apps: AppMeta[] = [
     ],
     appStoreUrl: 'https://apps.apple.com',
     privacyUrl: '/legal/server-tip-tracker/server-tip-tracker-privacy.html',
+    supportEmail: 'admin@brightwoodapps.com',
   },
 ];
 

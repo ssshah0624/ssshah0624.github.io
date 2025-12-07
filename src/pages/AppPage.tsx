@@ -23,6 +23,57 @@ export function AppPage() {
 
   const supportEmail = `mailto:${app.supportEmail ?? 'admin@brightwoodapps.com'}?subject=${encodeURIComponent(app.name)}`;
 
+  if (app.slug === 'server-tip-tracker') {
+    return (
+      <div className="page page--narrow page--light">
+        <section className="app-hero-plain">
+          <div className="container app-hero-plain__grid">
+            <div className="app-hero-plain__content">
+              <p className="eyebrow">{app.category}</p>
+              <h1>See where every shift pays best</h1>
+              <p className="lede">
+                Server Tip Tracker keeps tips, wages, and hours in one simple view so you can choose the shifts, roles, and locations that earn the most.
+              </p>
+              <div className="pill-row">
+                <span>Log tips, wages, and hours in seconds</span>
+                <span>Trends by day, location, and role</span>
+                <span>Weekly summaries you can trust</span>
+              </div>
+              <div className="hero__actions">
+                <a className="btn-primary" href={`mailto:admin@brightwoodapps.com?subject=${encodeURIComponent(app.name)}`}>
+                  Get early access
+                </a>
+                <a className="btn-secondary" href={supportEmail}>
+                  Contact support
+                </a>
+                <a className="btn-ghost" href={app.privacyUrl}>
+                  Privacy Policy
+                </a>
+              </div>
+            </div>
+            <div className="app-hero-plain__feature-card">
+              <p className="eyebrow">What you get</p>
+              <h2 className="app-hero-plain__card-title">Clear numbers without spreadsheets</h2>
+              <ul className="feature-list feature-list--left">
+                {app.features.map((feature) => (
+                  <li key={feature}>
+                    <span className="checkmark" aria-hidden="true">
+                      ✓
+                    </span>
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+              <p className="support-note">
+                Need help? Email <a href={supportEmail}>admin@brightwoodapps.com</a> and we’ll respond quickly.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    );
+  }
+
   return (
     <div className="page page--narrow">
       <section className="app-hero-block">

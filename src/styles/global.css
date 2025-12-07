@@ -45,6 +45,17 @@ a {
   width: min(800px, 90vw);
 }
 
+.page--light {
+  --bg: #ffffff;
+  --bg-alt: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --border: rgba(15, 23, 42, 0.12);
+  background: #ffffff;
+  color: var(--text);
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -313,6 +324,71 @@ h1 {
   font-size: 0.95rem;
 }
 
+.app-hero-plain {
+  background: #ffffff;
+  padding: 120px 0 90px;
+}
+
+.app-hero-plain__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  align-items: start;
+}
+
+.app-hero-plain__content {
+  display: grid;
+  gap: 18px;
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pill-row span {
+  background: #f8fafc;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  padding: 10px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 0.92rem;
+}
+
+.app-hero-plain__feature-card {
+  background: #f8fafc;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 18px;
+  padding: 22px 24px;
+  box-shadow: 0 16px 36px -32px rgba(15, 23, 42, 0.3);
+  display: grid;
+  gap: 12px;
+}
+
+.app-hero-plain__card-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.support-note {
+  margin: 0;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.page--light .hero__actions .btn-secondary {
+  background: #e2e8f0;
+  color: #0f172a;
+  border: 1px solid rgba(15, 23, 42, 0.18);
+}
+
+.page--light .btn-ghost {
+  color: #0f172a;
+  border-color: rgba(15, 23, 42, 0.18);
+}
+
 .app-hero-block {
   position: relative;
   min-height: 600px;
@@ -361,6 +437,11 @@ h1 {
   align-items: center;
   justify-content: center;
   color: var(--text);
+}
+
+.feature-list--left {
+  justify-items: start;
+  margin-left: 0;
 }
 
 .checkmark {
