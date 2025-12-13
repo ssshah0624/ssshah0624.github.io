@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charadas | Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="/styles.css" rel="stylesheet">
+  <style>
+    .legal-hero {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      padding: 6rem 0 4rem;
+      text-align: center;
+    }
+    .legal-hero h1 {
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .legal-body {
+      padding: 4rem 0;
+    }
+    .legal-body h2 {
+      font-size: 1.5rem;
+      margin-top: 3rem;
+      font-weight: 600;
+    }
+    .legal-body p,
+    .legal-body li {
+      color: #4a5568;
+      line-height: 1.7;
+    }
+    .legal-body ul {
+      margin-left: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="header"></div>
+
+  <section class="legal-hero">
+    <div class="container">
+      <h1>Privacy Policy</h1>
+      <p class="lead mb-0">Last updated: December 13, 2025</p>
+    </div>
+  </section>
+
+  <main class="legal-body">
+    <div class="container">
+      <p>Charadas (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is a charades-style party game built for Spanish-speaking players. We keep things simple and collect as little information as possible.</p>
+
+      <h2>1. Information We Collect</h2>
+      <ul>
+        <li><strong>Game play data:</strong> We do not collect or store the words you play, guesses, scores, or recordings. All gameplay stays on your device.</li>
+        <li><strong>Account data:</strong> Charadas does not require an account or login, so we do not collect names, emails, or phone numbers.</li>
+      </ul>
+
+      <h2>2. Analytics</h2>
+      <p>We use Mixpanel to understand how the app is used so we can improve categories and performance.</p>
+      <ul>
+        <li>Mixpanel receives anonymous event data such as feature taps and session counts.</li>
+        <li>We do not send gameplay content, microphone input, or personally identifying information to Mixpanel.</li>
+        <li>Data sent to Mixpanel is used only for product analytics and is not sold or shared for advertising.</li>
+      </ul>
+
+      <h2>3. Data Retention</h2>
+      <p>Because gameplay stays on your device, there is no server-side storage to delete. Mixpanel retains aggregated analytics according to their standard retention to help us track app quality over time.</p>
+
+      <h2>4. Sharing</h2>
+      <p>We do not sell or rent data. Limited analytics are shared only with Mixpanel to provide product insights described above.</p>
+
+      <h2>5. Security</h2>
+      <p>Data sent to Mixpanel is transmitted over encrypted connections. Access to analytics dashboards is restricted to our team.</p>
+
+      <h2>6. Children&rsquo;s Privacy</h2>
+      <p>Charadas is intended for general audiences and is not directed to children under 13. We do not knowingly collect personal information from children.</p>
+
+      <h2>7. Contact Us</h2>
+      <p>If you have questions about this policy, contact us at <a href="mailto:admin@brightwoodapps.com">admin@brightwoodapps.com</a>.</p>
+    </div>
+  </main>
+
+  <div id="footer"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      fetch('/header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header').innerHTML = data;
+          const brandElement = document.querySelector('.navbar-brand');
+          if (brandElement) {
+            brandElement.textContent = 'Charadas';
+          }
+        });
+
+      fetch('/footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('footer').innerHTML = data);
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

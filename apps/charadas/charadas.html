@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charadas | Charades en Español</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div id="header"></div>
+
+  <main>
+    <section class="hero-modern">
+      <div class="hero-bg-blur"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            El clásico juego de mímica,<br>
+            <span class="gradient-text">100% en español</span>
+          </h1>
+          <p class="hero-subtitle">
+            Charadas trae la energía de las fiestas y reuniones familiares a tu iPhone. Saca una carta, actúa la pista y deja que tu equipo adivine antes de que se acabe el tiempo.
+          </p>
+          <div class="hero-cta">
+            <a href="mailto:admin@brightwoodapps.com?subject=Charadas" class="btn-primary-modern">Obtener Charadas</a>
+            <a href="#features" class="btn-secondary-modern">Ver cómo funciona</a>
+          </div>
+          <div class="hero-benefits">
+            <div class="benefit-item">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 10l3 3L15 6"></path>
+              </svg>
+              <span>Categorías en español</span>
+            </div>
+            <div class="benefit-item">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 10l3 3L15 6"></path>
+              </svg>
+              <span>Temporizador integrado</span>
+            </div>
+            <div class="benefit-item">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 10l3 3L15 6"></path>
+              </svg>
+              <span>Ideal para grupos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section" id="features">
+      <div class="container">
+        <h2 class="section-title">Hecho para risas en español</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">⏱️</div>
+            <h3>Partidas rápidas</h3>
+            <p>Inicia una ronda en segundos con un temporizador listo para mantener la emoción.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎭</div>
+            <h3>Categorías temáticas</h3>
+            <p>Películas, animales, cultura pop en español y más. Elige la vibra del grupo y comienza a actuar.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">👥</div>
+            <h3>Modo equipo</h3>
+            <p>Juega en equipos y suma puntos con cada acierto. Perfecto para fiestas, clases de español o convivios familiares.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="waitlist-section">
+      <div class="container">
+        <div class="waitlist-card">
+          <h2>Listo para jugar</h2>
+          <p>Invita a tus amigos, abre Charadas y empieza a adivinar pistas en español.</p>
+          <div class="waitlist-form">
+            <a href="mailto:admin@brightwoodapps.com?subject=Charadas%20Soporte" class="btn-waitlist">
+              Habla con nosotros
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="app-legal-strip">
+      <div class="container">
+        <div class="legal-links">
+          <a class="btn-secondary-modern" href="/legal/charadas/privacy.html">Política de privacidad</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      fetch('/header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header').innerHTML = data;
+          const brandElement = document.querySelector('.navbar-brand');
+          if (brandElement) {
+            brandElement.textContent = 'Charadas';
+          }
+        });
+
+      fetch('/footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('footer').innerHTML = data);
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
