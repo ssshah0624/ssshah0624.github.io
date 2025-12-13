@@ -118,6 +118,21 @@ export const apps: AppMeta[] = [
     privacyUrl: '/legal/clipit/clipit-privacy.html',
   },
   {
+    slug: 'charadas',
+    name: 'Charadas',
+    category: 'Party games',
+    headline: 'El clásico juego de mímica, 100% en español',
+    subhead:
+      'Levanta el teléfono, actúa las pistas y deja que tu equipo adivine antes de que se acabe el tiempo—ideal para fiestas y clases de español.',
+    features: [
+      'Categorías temáticas en español',
+      'Temporizador integrado para rondas rápidas',
+      'Modo equipos con puntos automáticos',
+    ],
+    appStoreUrl: 'https://apps.apple.com',
+    privacyUrl: '/legal/charadas/privacy.html',
+  },
+  {
     slug: 'server-tip-tracker',
     name: 'Server Tip Tracker',
     category: 'Tipped & hourly work',
