@@ -56,6 +56,67 @@ a {
   color: var(--text);
 }
 
+.callgpt-body {
+  background: #ffffff;
+}
+
+.callgpt-page {
+  background: #ffffff;
+}
+
+.callgpt-page {
+  --bg: #ffffff;
+  --bg-alt: #f3f3f1;
+  --card: #ffffff;
+  --text: #0d0d0d;
+  --muted: #5d5d5d;
+  --border: rgba(13, 13, 13, 0.12);
+  --accent: #0b6bff;
+  --accent-2: #e4570a;
+}
+
+.callgpt-body .site-header,
+.callgpt-page .site-header {
+  background: rgba(255, 255, 255, 0.86);
+  border-bottom: 1px solid rgba(13, 13, 13, 0.08);
+}
+
+.callgpt-body .nav-link,
+.callgpt-page .nav-link {
+  color: #5d5d5d;
+}
+
+.callgpt-body .nav-link:hover,
+.callgpt-page .nav-link:hover {
+  color: #0d0d0d;
+  background: rgba(13, 13, 13, 0.05);
+}
+
+.callgpt-body .menu-toggle,
+.callgpt-page .menu-toggle {
+  background: rgba(13, 13, 13, 0.04);
+  border: 1px solid rgba(13, 13, 13, 0.12);
+  color: #0d0d0d;
+}
+
+.callgpt-body .menu-panel,
+.callgpt-page .menu-panel {
+  background: #ffffff;
+  border: 1px solid rgba(13, 13, 13, 0.12);
+  color: #0d0d0d;
+  box-shadow: 0 24px 50px -40px rgba(13, 13, 13, 0.4);
+}
+
+.callgpt-body .menu-panel li a,
+.callgpt-page .menu-panel li a {
+  color: #0d0d0d;
+}
+
+.callgpt-body .menu-panel li:hover,
+.callgpt-page .menu-panel li:hover {
+  background: rgba(13, 13, 13, 0.05);
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -387,6 +448,269 @@ h1 {
 .page--light .btn-ghost {
   color: #0f172a;
   border-color: rgba(15, 23, 42, 0.18);
+}
+
+.callgpt-page .btn-primary {
+  background: linear-gradient(135deg, #0b6bff, #e4570a);
+  box-shadow: 0 18px 35px rgba(11, 107, 255, 0.22);
+}
+
+.callgpt-page .btn-secondary {
+  background: #ffffff;
+  color: #0d0d0d;
+  border: 1px solid rgba(13, 13, 13, 0.16);
+}
+
+.callgpt-page .btn-ghost {
+  color: #0d0d0d;
+  border-color: rgba(13, 13, 13, 0.2);
+}
+
+.callgpt-hero {
+  position: relative;
+  padding: 120px 0 90px;
+  background: linear-gradient(135deg, #ffffff 0%, #f3f3f1 100%);
+  overflow: hidden;
+}
+
+.callgpt-hero::before,
+.callgpt-hero::after {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(11, 107, 255, 0.12), transparent 70%);
+  z-index: 0;
+}
+
+.callgpt-hero::before {
+  top: -140px;
+  left: -140px;
+}
+
+.callgpt-hero::after {
+  bottom: -160px;
+  right: -120px;
+  background: radial-gradient(circle, rgba(228, 87, 10, 0.12), transparent 70%);
+}
+
+.callgpt-hero__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 42px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.callgpt-hero__content {
+  display: grid;
+  gap: 18px;
+}
+
+.callgpt-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #ededeb;
+  color: #5d5d5d;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.callgpt-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.callgpt-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #5d5d5d;
+}
+
+.callgpt-tags span {
+  border: 1px solid rgba(13, 13, 13, 0.12);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.callgpt-hero__preview {
+  display: grid;
+  gap: 16px;
+  justify-items: center;
+}
+
+.callgpt-preview {
+  width: min(320px, 90vw);
+  display: grid;
+  gap: 16px;
+}
+
+.callgpt-panel {
+  background: #ffffff;
+  border: 1px solid rgba(13, 13, 13, 0.08);
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 20px 40px -32px rgba(13, 13, 13, 0.4);
+}
+
+.callgpt-panel__header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8f8f8f;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.callgpt-panel__status {
+  color: #0b6bff;
+}
+
+.callgpt-panel p {
+  margin: 0;
+  color: #0d0d0d;
+  font-weight: 600;
+}
+
+.callgpt-panel ul {
+  margin: 0;
+  padding-left: 18px;
+  color: #5d5d5d;
+  display: grid;
+  gap: 6px;
+}
+
+.callgpt-panel--accent {
+  background: #f3f3f1;
+}
+
+.callgpt-caption {
+  margin: 0;
+  text-align: center;
+  color: #5d5d5d;
+  font-size: 0.9rem;
+}
+
+.callgpt-section {
+  padding: 90px 0;
+}
+
+.callgpt-section--alt {
+  background: #ffffff;
+}
+
+.callgpt-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.callgpt-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid rgba(13, 13, 13, 0.12);
+  box-shadow: 0 18px 36px -32px rgba(13, 13, 13, 0.35);
+  display: grid;
+  gap: 10px;
+}
+
+.callgpt-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.callgpt-card p {
+  margin: 0;
+  color: #5d5d5d;
+}
+
+.callgpt-section--workflow {
+  background: linear-gradient(180deg, #ffffff 0%, #f3f3f1 100%);
+}
+
+.callgpt-workflow {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 32px;
+  border: 1px solid rgba(13, 13, 13, 0.12);
+  box-shadow: 0 24px 45px -35px rgba(13, 13, 13, 0.35);
+  display: grid;
+  gap: 18px;
+}
+
+.callgpt-workflow ol {
+  margin: 0;
+  padding-left: 20px;
+  color: #5d5d5d;
+  display: grid;
+  gap: 10px;
+}
+
+.callgpt-section--cta {
+  background: linear-gradient(135deg, #0b6bff 0%, #0b6bff 35%, #e4570a 100%);
+  color: #ffffff;
+}
+
+.callgpt-cta {
+  display: grid;
+  gap: 18px;
+}
+
+.callgpt-cta .lede {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.callgpt-cta__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.callgpt-section--cta .btn-secondary {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.callgpt-section--cta .btn-ghost {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.callgpt-section--legal {
+  background: #ffffff;
+}
+
+.callgpt-legal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid rgba(13, 13, 13, 0.12);
+  background: #f3f3f1;
+}
+
+.callgpt-legal__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .app-hero-block {

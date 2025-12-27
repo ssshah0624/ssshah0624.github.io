@@ -43,6 +43,21 @@ export const apps: AppMeta[] = [
     privacyUrl: '/legal/text-back-ai/text-back-ai-privacy.html',
   },
   {
+    slug: 'call-gpt',
+    name: 'Call GPT',
+    category: 'ChatGPT assistant',
+    headline: 'Book appointments without leaving ChatGPT',
+    subhead:
+      'Initiate real calls to barbers, clinics, and local services so your chats turn into confirmed appointments.',
+    features: [
+      'Call initiation handled directly from chat',
+      'Summaries with times, locations, and confirmations',
+      'Built for businesses that still book by phone',
+    ],
+    appStoreUrl: 'https://chat.openai.com',
+    privacyUrl: '/legal/call-gpt/call-gpt-privacy.html',
+  },
+  {
     slug: 'trip-planner',
     name: 'Trip Planner Plus',
     category: 'Travel planning',
