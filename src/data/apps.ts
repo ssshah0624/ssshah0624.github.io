@@ -163,6 +163,22 @@ export const apps: AppMeta[] = [
     privacyUrl: '/legal/server-tip-tracker/server-tip-tracker-privacy.html',
     supportEmail: 'admin@brightwoodapps.com',
   },
+  {
+    slug: 'mealcal',
+    name: 'MealCal',
+    category: 'Meal planning',
+    headline: 'Plan your whole week of meals, together',
+    subhead:
+      'Save recipes from any website, organize them into collections, and map out breakfast, lunch, and dinner—then share it all with the people you cook for.',
+    features: [
+      'Weekly calendar for breakfast, lunch, and dinner',
+      'Save recipes from any website into shared collections',
+      'Social feed to follow friends and discover new meals',
+    ],
+    appStoreUrl: 'https://apps.apple.com/us/app/mealcal-social-meal-planning/id1608650489',
+    privacyUrl: '/legal/mealcal/mealcal-privacy.html',
+    accent: '#7a1f3d',
+  },
 ];
 
 export const getAppBySlug = (slug: string) => apps.find((app) => app.slug === slug);
