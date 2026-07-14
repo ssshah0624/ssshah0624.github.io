@@ -33,7 +33,7 @@ export function SiteHeader() {
               buttonLabel="Explore"
               items={[
                 ...primaryItems,
-                { label: '— Featured apps —', href: '#' },
+                { label: '— All apps —', href: '#' },
                 ...exploreItems,
               ]}
             />

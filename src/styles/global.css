@@ -203,6 +203,9 @@ a {
   box-shadow: var(--shadow-soft);
   display: grid;
   gap: 6px;
+  max-height: calc(100vh - 92px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .menu-panel li {

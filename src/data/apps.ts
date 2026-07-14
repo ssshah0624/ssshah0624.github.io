@@ -7,11 +7,156 @@ export type AppMeta = {
   features: string[];
   appStoreUrl: string;
   privacyUrl: string;
+  termsUrl?: string;
   supportEmail?: string;
   accent?: string;
 };
 
 export const apps: AppMeta[] = [
+  {
+    slug: 'pronounce-english',
+    name: 'Pronounce English',
+    category: 'English learning',
+    headline: 'Speak English clearly with instant AI feedback',
+    subhead:
+      'Practice useful phrases, compare against reference audio, and get immediate pronunciation feedback so every conversation feels more natural.',
+    features: [
+      '159 real-world phrases across 10 themed units',
+      'AI-powered pronunciation scoring and instant feedback',
+      'Reference audio and progress tracking for every phrase',
+    ],
+    appStoreUrl: 'https://apps.apple.com/us/app/pronounce-english-app/id6761025957',
+    privacyUrl: '/legal/pronounce-english/pronounce-english-privacy.html',
+    termsUrl: '/terms/',
+  },
+  {
+    slug: 'learn-malayalam',
+    name: 'Learn Malayalam',
+    category: 'Language learning',
+    headline: 'Start speaking Malayalam with confidence',
+    subhead:
+      'Build practical Malayalam skills through short lessons, native audio, real conversations, and interactive exercises designed for everyday life.',
+    features: [
+      '22 units with 110 bite-sized lessons',
+      '430+ words with Malayalam script, romanization, and audio',
+      'Seven exercise types plus smart review and cultural context',
+    ],
+    appStoreUrl: 'https://apps.apple.com/us/app/learn-malayalam-app/id6760923821',
+    privacyUrl: '/legal/learn-malayalam/learn-malayalam-privacy.html',
+    termsUrl: '/terms/',
+  },
+  {
+    slug: 'learn-odia',
+    name: 'Learn Odia',
+    category: 'Language learning',
+    headline: 'Learn to speak Odia, one short lesson at a time',
+    subhead:
+      'Move from essential greetings to fluent dialogues with a structured curriculum, native Odia audio, and practice built around real situations.',
+    features: [
+      '22 units with 110 bite-sized lessons',
+      '395+ words with Odia script, transliteration, and audio',
+      'Speaking practice, daily streaks, and seven exercise types',
+    ],
+    appStoreUrl: 'https://apps.apple.com/us/app/learn-odia-app/id6760923785',
+    privacyUrl: '/legal/learn-odia/learn-odia-privacy.html',
+    termsUrl: '/terms/',
+  },
+  {
+    slug: 'learn-amharic',
+    name: 'Learn Amharic',
+    category: 'Language learning',
+    headline: 'Go from first words to real Amharic conversations',
+    subhead:
+      'Learn naturally with focused lessons, native audio, cultural context, and varied exercises that help new vocabulary stick.',
+    features: [
+      '22 units with 110 bite-sized lessons',
+      '402+ words with Amharic script, romanization, and audio',
+      'Seven exercise types with targeted smart review',
+    ],
+    appStoreUrl: 'https://apps.apple.com/us/app/learn-amharic-app/id6760735777',
+    privacyUrl: '/legal/learn-amharic/learn-amharic-privacy.html',
+    termsUrl: '/terms/',
+  },
+  {
+    slug: 'learn-marathi',
+    name: 'Learn Marathi Fast',
+    category: 'Language learning',
+    headline: 'Make Marathi part of your everyday routine',
+    subhead:
+      'Practice useful words, sentences, and conversations in five-minute lessons that take you from the basics toward confident speaking.',
+    features: [
+      '22 units with 110 bite-sized lessons',
+      '402+ words with Marathi script, romanization, and audio',
+      'Real dialogues, cultural notes, and seven exercise types',
+    ],
+    appStoreUrl: 'https://apps.apple.com/us/app/learn-marathi-fast/id6760923583',
+    privacyUrl: '/legal/learn-marathi/learn-marathi-privacy.html',
+    termsUrl: '/terms/',
+  },
+  {
+    slug: 'learn-punjabi',
+    name: 'Learn Punjabi',
+    category: 'Language learning',
+    headline: 'Speak Punjabi with family, friends, and confidence',
+    subhead:
+      'Build conversational Punjabi through short lessons, native audio, practical dialogues, and exercises that reinforce every new word.',
+    features: [
+      '22 units with 110 bite-sized lessons',
+      '390+ words with Punjabi script, romanization, and audio',
+      'Seven exercise types with cultural context and smart review',
+    ],
+    appStoreUrl: 'https://apps.apple.com/us/app/learn-punjabi-app/id6760923795',
+    privacyUrl: '/legal/learn-punjabi/learn-punjabi-privacy.html',
+    termsUrl: '/terms/',
+  },
+  {
+    slug: 'learn-kannada',
+    name: 'Learn Kannada',
+    category: 'Language learning',
+    headline: 'Build conversational Kannada through daily practice',
+    subhead:
+      'Progress from greetings to everyday conversations with bite-sized lessons, native pronunciation, and interactive exercises.',
+    features: [
+      '22 units with 110 bite-sized lessons',
+      '440+ words with Kannada script, romanization, and audio',
+      'Seven exercise types with smart review and cultural context',
+    ],
+    appStoreUrl: 'https://apps.apple.com/us/app/learn-kannada-app/id6760599548',
+    privacyUrl: '/legal/learn-kannada/learn-kannada-privacy.html',
+    termsUrl: '/terms/',
+  },
+  {
+    slug: 'learn-bengali',
+    name: 'Learn Bengali',
+    category: 'Language learning',
+    headline: 'Turn five minutes a day into confident Bengali',
+    subhead:
+      'Learn Bengali for family, travel, and everyday conversation with short lessons, native audio, and meaningful cultural context.',
+    features: [
+      '22 units with 110 bite-sized lessons',
+      '395+ words with Bengali script, romanization, and audio',
+      'Seven exercise types with dialogues and targeted review',
+    ],
+    appStoreUrl: 'https://apps.apple.com/us/app/learn-bengali-app/id6760684086',
+    privacyUrl: '/legal/learn-bengali/learn-bengali-privacy.html',
+    termsUrl: '/terms/',
+  },
+  {
+    slug: 'learn-gujarati',
+    name: 'Learn Gujarati',
+    category: 'Language learning',
+    headline: 'A clear path from beginner to confident Gujarati',
+    subhead:
+      'Reconnect with family, prepare for travel, or explore Gujarati through structured lessons, native audio, and practical conversation practice.',
+    features: [
+      '20 structured units with 100+ interactive lessons',
+      '460+ native audio clips with phonetic learning support',
+      'Seven exercise types, smart review, and progress tracking',
+    ],
+    appStoreUrl: 'https://apps.apple.com/us/app/learn-gujarati-app/id6758917172',
+    privacyUrl: '/legal/learn-gujarati/learn-gujarati-privacy.html',
+    termsUrl: '/terms/',
+  },
   {
     slug: 'heardwell',
     name: 'Heardwell',
@@ -129,7 +274,7 @@ export const apps: AppMeta[] = [
       'Automatic editing with share-ready exports',
       'Cloud backups to keep memories safe',
     ],
-    appStoreUrl: 'https://apps.apple.com',
+    appStoreUrl: 'https://apps.apple.com/us/app/capture-pickleball-highlights/id6742061673',
     privacyUrl: '/legal/clipit/clipit-privacy.html',
   },
   {
@@ -144,7 +289,7 @@ export const apps: AppMeta[] = [
       'Temporizador integrado para rondas rápidas',
       'Modo equipos con puntos automáticos',
     ],
-    appStoreUrl: 'https://apps.apple.com',
+    appStoreUrl: 'https://apps.apple.com/us/app/charadas/id6756526814',
     privacyUrl: '/legal/charadas/privacy.html',
   },
   {
@@ -159,7 +304,7 @@ export const apps: AppMeta[] = [
       'Insights by employer, role, weekday, and pay period',
       'Totals and averages to plan confident schedules',
     ],
-    appStoreUrl: 'https://apps.apple.com',
+    appStoreUrl: 'https://apps.apple.com/us/app/server-tip-tracker/id6756147432',
     privacyUrl: '/legal/server-tip-tracker/server-tip-tracker-privacy.html',
     supportEmail: 'admin@brightwoodapps.com',
   },

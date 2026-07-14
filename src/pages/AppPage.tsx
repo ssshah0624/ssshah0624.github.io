@@ -199,8 +199,8 @@ export function AppPage() {
                 <span>Weekly summaries you can trust</span>
               </div>
               <div className="hero__actions">
-                <a className="btn-primary" href={`mailto:admin@brightwoodapps.com?subject=${encodeURIComponent(app.name)}`}>
-                  Get early access
+                <a className="btn-primary" href={app.appStoreUrl} target="_blank" rel="noreferrer">
+                  Download on App Store
                 </a>
                 <a className="btn-secondary" href={supportEmail}>
                   Contact support
@@ -261,6 +261,11 @@ export function AppPage() {
             <a className="btn-secondary" href={app.privacyUrl}>
               View Privacy Policy
             </a>
+            {app.termsUrl && (
+              <a className="btn-ghost" href={app.termsUrl}>
+                Terms of Use
+              </a>
+            )}
             <a className="btn-ghost" href={supportEmail}>
               Contact Support
             </a>
