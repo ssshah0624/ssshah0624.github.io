@@ -25,8 +25,11 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      - name: Add SPA fallback
-        run: cp dist/index.html dist/404.html
+      - name: Add static route and SPA fallback
+        run: |
+          mkdir -p dist/support
+          cp dist/index.html dist/support/index.html
+          cp dist/index.html dist/404.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
