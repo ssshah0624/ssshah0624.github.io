@@ -6,7 +6,7 @@ export function SiteHeader() {
   const primaryItems = [
     { label: 'Studio', href: '/#studio' },
     { label: 'Apps', href: '/#apps' },
-    { label: 'Contact', href: 'mailto:admin@brightwoodapps.com' },
+    { label: 'Support', href: '/support' },
   ];
 
   const exploreItems = apps.map((app) => ({
