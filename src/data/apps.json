@@ -1,0 +1,776 @@
+[
+  {
+    "slug": "pronounce-english",
+    "name": "Pronounce English",
+    "storeName": "Pronounce English App",
+    "category": "English pronunciation",
+    "headline": "A little practice.\nA clearer voice.",
+    "subhead": "Listen to useful English phrases, record yourself and get AI pronunciation feedback. Practice at your own pace.",
+    "features": [
+      "159 everyday phrases",
+      "10 themed units",
+      "Reference audio & feedback"
+    ],
+    "workflow": [
+      {
+        "title": "Choose a phrase",
+        "body": "Pick a unit for an everyday situation, from introductions to ordering food."
+      },
+      {
+        "title": "Listen, then record",
+        "body": "Hear the reference audio and record yourself saying the phrase."
+      },
+      {
+        "title": "Review and repeat",
+        "body": "Use the pronunciation score as feedback and keep track of your practice."
+      }
+    ],
+    "insightTitle": "Practice you can hear.",
+    "insightBody": "Reference audio gives you something to listen to; recording gives you a way to try it yourself. Revisit phrases as often as you need.",
+    "note": "Start with Unit 1 for free. Pronounce Pro unlocks all 10 units through a monthly or annual subscription.",
+    "appStoreUrl": "https://apps.apple.com/us/app/pronounce-english-app/id6761025957",
+    "privacyUrl": "/legal/pronounce-english/pronounce-english-privacy.html",
+    "termsUrl": "/terms/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "17.0",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/pronounce-english-icon.jpg",
+    "screenshots": [
+      "/assets/images/pronounce-english-store-1.jpg",
+      "/assets/images/pronounce-english-store-2.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "learn-malayalam",
+    "name": "Learn Malayalam",
+    "storeName": "Learn Malayalam App",
+    "category": "Language learning",
+    "headline": "A few new words.\nA little closer.",
+    "subhead": "Make room for Malayalam in your day, with short lessons, audio and practice for everyday conversations.",
+    "features": [
+      "Short structured lessons",
+      "Audio & vocabulary",
+      "7 exercise types"
+    ],
+    "workflow": [
+      {
+        "title": "Start with a lesson",
+        "body": "Choose a practical topic, from greetings and introductions to shopping and travel."
+      },
+      {
+        "title": "Listen and practise",
+        "body": "Hear Malayalam pronunciation and work through interactive exercises."
+      },
+      {
+        "title": "Build on what you know",
+        "body": "Review difficult words and reinforce what you have learned."
+      }
+    ],
+    "insightTitle": "Learn the words.\nHear them in context.",
+    "insightBody": "Bring listening and practice together through vocabulary, example sentences and interactive exercises. See Malayalam script alongside romanization and audio.",
+    "note": "Free to download, with in-app purchases. See the app for current access options.",
+    "appStoreUrl": "https://apps.apple.com/us/app/learn-malayalam-app/id6760923821",
+    "privacyUrl": "/legal/learn-malayalam/learn-malayalam-privacy.html",
+    "termsUrl": "/terms/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone & iPad",
+    "minimumOs": "18.0",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/learn-malayalam-icon.jpg",
+    "screenshots": [
+      "/assets/images/learn-malayalam-store-2.jpg",
+      "/assets/images/learn-malayalam-store-3.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "learn-odia",
+    "name": "Learn Odia",
+    "storeName": "Learn Odia App",
+    "category": "Language learning",
+    "headline": "A few new words.\nA little closer.",
+    "subhead": "Make room for Odia in your day, with short lessons, audio and practice for everyday conversations.",
+    "features": [
+      "Short structured lessons",
+      "Audio & vocabulary",
+      "7 exercise types"
+    ],
+    "workflow": [
+      {
+        "title": "Start with a lesson",
+        "body": "Choose a practical topic, from greetings and introductions to shopping and travel."
+      },
+      {
+        "title": "Listen and practise",
+        "body": "Hear Odia pronunciation and work through interactive exercises."
+      },
+      {
+        "title": "Build on what you know",
+        "body": "Track your progress and return to lessons for more practice."
+      }
+    ],
+    "insightTitle": "Learn the words.\nHear them in context.",
+    "insightBody": "Bring listening and practice together through vocabulary, example sentences and interactive exercises. See Odia script alongside transliteration and audio.",
+    "note": "Free to download, with in-app purchases. See the app for current access options.",
+    "appStoreUrl": "https://apps.apple.com/us/app/learn-odia-app/id6760923785",
+    "privacyUrl": "/legal/learn-odia/learn-odia-privacy.html",
+    "termsUrl": "/terms/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "18.0",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/learn-odia-icon.jpg",
+    "screenshots": [
+      "/assets/images/learn-odia-store-2.jpg",
+      "/assets/images/learn-odia-store-3.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "learn-amharic",
+    "name": "Learn Amharic",
+    "storeName": "Learn Amharic App",
+    "category": "Language learning",
+    "headline": "A few new words.\nA little closer.",
+    "subhead": "Make room for Amharic in your day, with short lessons, audio and practice for everyday conversations.",
+    "features": [
+      "Short structured lessons",
+      "Audio & vocabulary",
+      "7 exercise types"
+    ],
+    "workflow": [
+      {
+        "title": "Start with a lesson",
+        "body": "Choose a practical topic, from greetings and introductions to shopping and travel."
+      },
+      {
+        "title": "Listen and practise",
+        "body": "Hear Amharic pronunciation and work through interactive exercises."
+      },
+      {
+        "title": "Build on what you know",
+        "body": "Review difficult words and reinforce what you have learned."
+      }
+    ],
+    "insightTitle": "Learn the words.\nHear them in context.",
+    "insightBody": "Bring listening and practice together through vocabulary, example sentences and interactive exercises. See Amharic script alongside romanization and audio.",
+    "note": "Free to download, with in-app purchases. See the app for current access options.",
+    "appStoreUrl": "https://apps.apple.com/us/app/learn-amharic-app/id6760735777",
+    "privacyUrl": "/legal/learn-amharic/learn-amharic-privacy.html",
+    "termsUrl": "/terms/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "18.0",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/learn-amharic-icon.jpg",
+    "screenshots": [
+      "/assets/images/learn-amharic-store-2.jpg",
+      "/assets/images/learn-amharic-store-3.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "learn-marathi",
+    "name": "Learn Marathi Fast",
+    "storeName": "Learn Marathi Fast",
+    "category": "Language learning",
+    "headline": "A few new words.\nA little closer.",
+    "subhead": "Make room for Marathi in your day, with short lessons, audio and practice for everyday conversations.",
+    "features": [
+      "Short structured lessons",
+      "Audio & vocabulary",
+      "7 exercise types"
+    ],
+    "workflow": [
+      {
+        "title": "Start with a lesson",
+        "body": "Choose a practical topic, from greetings and introductions to shopping and travel."
+      },
+      {
+        "title": "Listen and practise",
+        "body": "Hear Marathi pronunciation and work through interactive exercises."
+      },
+      {
+        "title": "Build on what you know",
+        "body": "Review difficult words and reinforce what you have learned."
+      }
+    ],
+    "insightTitle": "Learn the words.\nHear them in context.",
+    "insightBody": "Bring listening and practice together through vocabulary, example sentences and interactive exercises. See Marathi script alongside romanization and audio.",
+    "note": "Free to download, with in-app purchases. See the app for current access options.",
+    "appStoreUrl": "https://apps.apple.com/us/app/learn-marathi-fast/id6760923583",
+    "privacyUrl": "/legal/learn-marathi/learn-marathi-privacy.html",
+    "termsUrl": "/terms/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "18.0",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/learn-marathi-icon.jpg",
+    "screenshots": [
+      "/assets/images/learn-marathi-store-2.jpg",
+      "/assets/images/learn-marathi-store-3.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "learn-punjabi",
+    "name": "Learn Punjabi",
+    "storeName": "Learn Punjabi App",
+    "category": "Language learning",
+    "headline": "A few new words.\nA little closer.",
+    "subhead": "Make room for Punjabi in your day, with short lessons, audio and practice for everyday conversations.",
+    "features": [
+      "Short structured lessons",
+      "Audio & vocabulary",
+      "7 exercise types"
+    ],
+    "workflow": [
+      {
+        "title": "Start with a lesson",
+        "body": "Choose a practical topic, from greetings and introductions to shopping and travel."
+      },
+      {
+        "title": "Listen and practise",
+        "body": "Hear Punjabi pronunciation and work through interactive exercises."
+      },
+      {
+        "title": "Build on what you know",
+        "body": "Review difficult words and reinforce what you have learned."
+      }
+    ],
+    "insightTitle": "Learn the words.\nHear them in context.",
+    "insightBody": "Bring listening and practice together through vocabulary, example sentences and interactive exercises. See Punjabi script alongside romanization and audio.",
+    "note": "Free to download, with in-app purchases. See the app for current access options.",
+    "appStoreUrl": "https://apps.apple.com/us/app/learn-punjabi-app/id6760923795",
+    "privacyUrl": "/legal/learn-punjabi/learn-punjabi-privacy.html",
+    "termsUrl": "/terms/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "18.0",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/learn-punjabi-icon.jpg",
+    "screenshots": [
+      "/assets/images/learn-punjabi-store-2.jpg",
+      "/assets/images/learn-punjabi-store-3.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "learn-kannada",
+    "name": "Learn Kannada",
+    "storeName": "Learn Kannada App",
+    "category": "Language learning",
+    "headline": "A few new words.\nA little closer.",
+    "subhead": "Make room for Kannada in your day, with short lessons, audio and practice for everyday conversations.",
+    "features": [
+      "Short structured lessons",
+      "Audio & vocabulary",
+      "7 exercise types"
+    ],
+    "workflow": [
+      {
+        "title": "Start with a lesson",
+        "body": "Choose a practical topic, from greetings and introductions to shopping and travel."
+      },
+      {
+        "title": "Listen and practise",
+        "body": "Hear Kannada pronunciation and work through interactive exercises."
+      },
+      {
+        "title": "Build on what you know",
+        "body": "Review difficult words and reinforce what you have learned."
+      }
+    ],
+    "insightTitle": "Learn the words.\nHear them in context.",
+    "insightBody": "Bring listening and practice together through vocabulary, example sentences and interactive exercises. See Kannada script alongside romanization and audio.",
+    "note": "Free to download, with in-app purchases. See the app for current access options.",
+    "appStoreUrl": "https://apps.apple.com/us/app/learn-kannada-app/id6760599548",
+    "privacyUrl": "/legal/learn-kannada/learn-kannada-privacy.html",
+    "termsUrl": "/terms/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "18.0",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/learn-kannada-icon.jpg",
+    "screenshots": [
+      "/assets/images/learn-kannada-store-2.jpg",
+      "/assets/images/learn-kannada-store-3.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "learn-bengali",
+    "name": "Learn Bengali",
+    "storeName": "Learn Bengali App",
+    "category": "Language learning",
+    "headline": "A few new words.\nA little closer.",
+    "subhead": "Make room for Bengali in your day, with short lessons, audio and practice for everyday conversations.",
+    "features": [
+      "Short structured lessons",
+      "Audio & vocabulary",
+      "7 exercise types"
+    ],
+    "workflow": [
+      {
+        "title": "Start with a lesson",
+        "body": "Choose a practical topic, from greetings and introductions to shopping and travel."
+      },
+      {
+        "title": "Listen and practise",
+        "body": "Hear Bengali pronunciation and work through interactive exercises."
+      },
+      {
+        "title": "Build on what you know",
+        "body": "Review difficult words and reinforce what you have learned."
+      }
+    ],
+    "insightTitle": "Learn the words.\nHear them in context.",
+    "insightBody": "Bring listening and practice together through vocabulary, example sentences and interactive exercises. See Bengali script alongside romanization and audio.",
+    "note": "Free to download, with in-app purchases. See the app for current access options.",
+    "appStoreUrl": "https://apps.apple.com/us/app/learn-bengali-app/id6760684086",
+    "privacyUrl": "/legal/learn-bengali/learn-bengali-privacy.html",
+    "termsUrl": "/terms/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "18.0",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/learn-bengali-icon.jpg",
+    "screenshots": [
+      "/assets/images/learn-bengali-store-2.jpg",
+      "/assets/images/learn-bengali-store-3.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "learn-gujarati",
+    "name": "Learn Gujarati",
+    "storeName": "Learn Gujarati App",
+    "category": "Language learning",
+    "headline": "A few new words.\nA little closer.",
+    "subhead": "Make room for Gujarati in your day, with short lessons, audio and practice for everyday conversations.",
+    "features": [
+      "Short structured lessons",
+      "Audio & vocabulary",
+      "7 exercise types"
+    ],
+    "workflow": [
+      {
+        "title": "Start with a lesson",
+        "body": "Choose a practical topic, from greetings and introductions to shopping and travel."
+      },
+      {
+        "title": "Listen and practise",
+        "body": "Hear Gujarati pronunciation and work through interactive exercises."
+      },
+      {
+        "title": "Build on what you know",
+        "body": "Review difficult words and reinforce what you have learned."
+      }
+    ],
+    "insightTitle": "Learn the words.\nHear them in context.",
+    "insightBody": "Bring listening and practice together through vocabulary, example sentences and interactive exercises. Phonetic learning lets you get started without knowing the script.",
+    "note": "Free to download, with in-app purchases. See the app for current access options.",
+    "appStoreUrl": "https://apps.apple.com/us/app/learn-gujarati-app/id6758917172",
+    "privacyUrl": "/legal/learn-gujarati/learn-gujarati-privacy.html",
+    "termsUrl": "/terms/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "18.0",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/learn-gujarati-icon.jpg",
+    "screenshots": [
+      "/assets/images/learn-gujarati-store-2.jpg",
+      "/assets/images/learn-gujarati-store-3.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "text-back-ai",
+    "name": "Text Back AI",
+    "storeName": "Text Back AI",
+    "category": "Writing & communication",
+    "headline": "Find the words.\nMake them yours.",
+    "subhead": "Turn a conversation screenshot into reply suggestions. Choose a tone, compare options and decide what to send.",
+    "features": [
+      "Conversation screenshot input",
+      "Selectable tone",
+      "Multiple reply suggestions"
+    ],
+    "workflow": [
+      {
+        "title": "Add the conversation",
+        "body": "Upload a screenshot of the chat you want help replying to."
+      },
+      {
+        "title": "Choose your tone",
+        "body": "Select a tone and browse the AI-generated suggestions."
+      },
+      {
+        "title": "Make the final call",
+        "body": "Pick a reply, review it and copy or share it when you are ready."
+      }
+    ],
+    "insightTitle": "A starting point,\nin your own voice.",
+    "insightBody": "Compare several possible replies instead of staring at a blank message. Choose the suggestion that fits, then make it your own.",
+    "note": "You choose what to send. Review AI suggestions before sharing them.",
+    "appStoreUrl": "https://apps.apple.com/us/app/text-back-ai/id6753718174",
+    "privacyUrl": "/legal/text-back-ai/text-back-ai-privacy.html",
+    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "17.6",
+    "purchase": "Free to download · See App Store for current details",
+    "icon": "/assets/images/text-back-ai-icon.jpg",
+    "screenshots": [
+      "/assets/images/text-back-ai-store-3.jpg",
+      "/assets/images/text-back-ai-store-2.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "trip-planner",
+    "name": "Trip Planner Plus",
+    "storeName": "Itinerary Maker for Vacations",
+    "category": "Travel planning",
+    "headline": "A trip to plan.\nRoom to explore.",
+    "subhead": "Build a day-by-day itinerary, collect ideas and plan together with the people coming along.",
+    "features": [
+      "Day-by-day itineraries",
+      "Shared plans & permissions",
+      "Packing lists & documents"
+    ],
+    "workflow": [
+      {
+        "title": "Collect your ideas",
+        "body": "Save possibilities to a trip wishlist or explore suggestions with AI."
+      },
+      {
+        "title": "Put the days together",
+        "body": "Organize your itinerary, documents, packing list and trip tasks."
+      },
+      {
+        "title": "Bring everyone along",
+        "body": "Invite your travel companions with a link and choose view or edit access."
+      }
+    ],
+    "insightTitle": "The plan,\nin one place.",
+    "insightBody": "Keep the things you have booked alongside the things you are still considering. Shared itineraries and task lists help everyone see what comes next.",
+    "note": "Listed on the App Store as Itinerary Maker for Vacations.",
+    "appStoreUrl": "https://apps.apple.com/us/app/itinerary-maker-for-vacations/id6737527520",
+    "privacyUrl": "/legal/trip-planner/trip-planner-privacy.html",
+    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone & iPad",
+    "minimumOs": "16.6",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/trip-planner-icon.jpg",
+    "screenshots": [
+      "/assets/images/trip-planner-store-1.jpg",
+      "/assets/images/trip-planner-store-2.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "decaf",
+    "name": "Decaf Caffeine Tracker",
+    "storeName": "Caffeine Tracker +",
+    "category": "Daily habits",
+    "headline": "Know your coffee.\nKnow your routine.",
+    "subhead": "Log your drinks and explore estimated caffeine levels over the day. Look back on your habits with charts and a monthly calendar.",
+    "features": [
+      "Coffee, tea & custom drinks",
+      "Estimated caffeine graph",
+      "Calendar & reminders"
+    ],
+    "workflow": [
+      {
+        "title": "Log a drink",
+        "body": "Choose a beverage or create your own custom drink."
+      },
+      {
+        "title": "See the estimate",
+        "body": "View how estimated caffeine levels change over the day."
+      },
+      {
+        "title": "Look for patterns",
+        "body": "Review your calendar, reminders and recorded sleep information."
+      }
+    ],
+    "insightTitle": "A clearer view\nof your daily cup.",
+    "insightBody": "Keep a record of the drinks you enjoy and use the calendar to look back across days. Set goals and reminders around your own routine.",
+    "note": "Caffeine levels are estimates. The app is a tracking tool, not medical advice. Listed as Caffeine Tracker + on the App Store.",
+    "appStoreUrl": "https://apps.apple.com/us/app/caffeine-tracker/id6746387175",
+    "privacyUrl": "/legal/decaf/decaf-privacy.html",
+    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "17.6",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/decaf-icon.jpg",
+    "screenshots": [
+      "/assets/images/decaf-store-1.jpg",
+      "/assets/images/decaf-store-2.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "baby-feeding-tracker",
+    "name": "Baby Feeding Tracker +",
+    "storeName": "Newborn Feeding Timer",
+    "category": "Family care",
+    "headline": "One less thing\nto remember.",
+    "subhead": "Track breast and bottle feeds, see the last feeding at a glance and keep a record you can look back on.",
+    "features": [
+      "Breastfeeding timer",
+      "Bottle volumes in oz or ml",
+      "Last-feed view"
+    ],
+    "workflow": [
+      {
+        "title": "Start a feed",
+        "body": "Start the breastfeeding timer or enter a bottle volume."
+      },
+      {
+        "title": "Keep the details",
+        "body": "Record the session and check which side was used."
+      },
+      {
+        "title": "Look back when you need to",
+        "body": "Review feeding history. Optional Pro features include reminders, exports and extended insights."
+      }
+    ],
+    "insightTitle": "For the middle\nof a busy night.",
+    "insightBody": "A focused place for feeding times, breast sides and bottle amounts. Keep the details together instead of trying to remember them all.",
+    "note": "Essential logging is free. Reminders, exports and extended insights require an in-app subscription. Listed as Newborn Feeding Timer.",
+    "appStoreUrl": "https://apps.apple.com/us/app/newborn-feeding-timer/id6746686386",
+    "privacyUrl": "/legal/baby-feeding-tracker/baby-feeding-tracker-privacy.html",
+    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "17.6",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/baby-feeding-tracker-icon.jpg",
+    "screenshots": [
+      "/assets/images/baby-feeding-tracker-store-2.jpg",
+      "/assets/images/baby-feeding-tracker-store-3.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "recentcontacts",
+    "name": "Recent Contacts",
+    "storeName": "Recent Contacts: When & Where",
+    "category": "Everyday organization",
+    "headline": "A new connection.\nAn easier way back.",
+    "subhead": "Find the contacts you recently added or updated, with dates and context to help you remember.",
+    "features": [
+      "Recently added contacts",
+      "Recent contact changes",
+      "Sorting & filtering"
+    ],
+    "workflow": [
+      {
+        "title": "Open your recent contacts",
+        "body": "View the latest additions and updates in your iPhone contacts."
+      },
+      {
+        "title": "Find the right person",
+        "body": "Use sorting and filtering to narrow the list."
+      },
+      {
+        "title": "Recall the context",
+        "body": "Review when a contact was added or changed."
+      }
+    ],
+    "insightTitle": "Remember the connection,\nnot just the name.",
+    "insightBody": "A chronological view helps you find someone after a busy event or revisit a contact you recently updated.",
+    "note": "Paid download. Check your local App Store for the current price.",
+    "appStoreUrl": "https://apps.apple.com/us/app/recent-contacts-when-where/id6742677026",
+    "privacyUrl": "/legal/recentcontacts/recentcontacts-privacy.html",
+    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "17.6",
+    "purchase": "Paid download · See App Store for local pricing",
+    "icon": "/assets/images/recentcontacts-icon.jpg",
+    "screenshots": [
+      "/assets/images/recentcontacts-store-1.jpg",
+      "/assets/images/recentcontacts-store-2.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "clipit",
+    "name": "Clip It",
+    "storeName": "Capture Pickleball Highlights",
+    "category": "Sports & replay",
+    "headline": "Play the point.\nKeep the moment.",
+    "subhead": "Record your play and save highlights to watch or share. Use iPhone controls or an Apple Watch remote.",
+    "features": [
+      "Video capture & highlights",
+      "Apple Watch controls",
+      "Shareable reels"
+    ],
+    "workflow": [
+      {
+        "title": "Set up your recording",
+        "body": "Position your iPhone to capture the action."
+      },
+      {
+        "title": "Save the moments",
+        "body": "Use the capture controls on iPhone or Apple Watch to keep highlights."
+      },
+      {
+        "title": "Watch and share",
+        "body": "Review your clips and share your highlights with friends or coaches."
+      }
+    ],
+    "insightTitle": "Back to the play\nyou want to see.",
+    "insightBody": "Keep a record of a rally, a practice session or a lift. Apple Watch controls let you start, stop and capture without reaching for your phone.",
+    "note": "Listed as Capture Pickleball Highlights. Apple Watch is supported for remote capture controls.",
+    "appStoreUrl": "https://apps.apple.com/us/app/capture-pickleball-highlights/id6742061673",
+    "privacyUrl": "/legal/clipit/clipit-privacy.html",
+    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone & Apple Watch",
+    "minimumOs": "17.6",
+    "purchase": "Paid download · See App Store for local pricing",
+    "icon": "/assets/images/clipit-icon.jpg",
+    "screenshots": [
+      "/assets/images/clipit-store-1.jpg",
+      "/assets/images/clipit-store-2.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "charadas",
+    "name": "Charadas",
+    "storeName": "Charadas",
+    "category": "Juegos de fiesta",
+    "headline": "Menos pantallas.\nMás carcajadas.",
+    "subhead": "Actúa sin hablar y deja que los demás adivinen. Un juego de mímica en español para compartir en persona.",
+    "features": [
+      "Palabras en español",
+      "Modo horizontal",
+      "Categorías editables"
+    ],
+    "workflow": [
+      {
+        "title": "Gira el teléfono",
+        "body": "Coloca el teléfono en modo horizontal y toca para empezar."
+      },
+      {
+        "title": "Actúa la palabra",
+        "body": "Usa gestos y movimientos, sin decir la palabra."
+      },
+      {
+        "title": "Adivina a tiempo",
+        "body": "Los demás intentan adivinar antes de que termine la ronda."
+      }
+    ],
+    "insightTitle": "Una palabra.\nMuchas maneras de actuar.",
+    "insightBody": "Juega con las categorías incluidas o añade palabras desde un archivo para adaptar las rondas a tu grupo.",
+    "note": "Descarga de pago. Consulta el precio actual en tu App Store.",
+    "appStoreUrl": "https://apps.apple.com/us/app/charadas/id6756526814",
+    "privacyUrl": "/legal/charadas/privacy.html",
+    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "17.6",
+    "purchase": "Paid download · See App Store for local pricing",
+    "icon": "/assets/images/charadas-icon.jpg",
+    "screenshots": [
+      "/assets/images/charadas-store-1.jpg",
+      "/assets/images/charadas-store-2.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "server-tip-tracker",
+    "name": "Server Tip Tracker",
+    "storeName": "Server Tip Tracker",
+    "category": "Tipped & hourly work",
+    "headline": "Your hard work.\nA clearer picture.",
+    "subhead": "Track your tips and hours. See how your earnings add up across shifts, days and jobs.",
+    "features": [
+      "Tips & hours",
+      "Earnings by date range",
+      "Days, companies & roles"
+    ],
+    "workflow": [
+      {
+        "title": "Log your shift",
+        "body": "Record tips, hours, company and role."
+      },
+      {
+        "title": "Review your earnings",
+        "body": "See totals and daily averages."
+      },
+      {
+        "title": "Find your patterns",
+        "body": "Compare days, companies and roles."
+      }
+    ],
+    "insightTitle": "Every shift is different.",
+    "insightBody": "See how it adds up.",
+    "note": "",
+    "appStoreUrl": "https://apps.apple.com/us/app/server-tip-tracker/id6756147432",
+    "privacyUrl": "/legal/server-tip-tracker/server-tip-tracker-privacy.html",
+    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone",
+    "minimumOs": "18.0",
+    "purchase": "Free to download · In-app purchases available",
+    "icon": "/assets/images/tip-icon.jpg",
+    "screenshots": [
+      "/assets/images/tip-store-1.jpg",
+      "/assets/images/tip-store-2.jpg"
+    ],
+    "faq": []
+  },
+  {
+    "slug": "mealcal",
+    "name": "MealCal",
+    "storeName": "MealCal - Social Meal Planning",
+    "category": "Meal planning",
+    "headline": "Your next meal.\nAlready planned.",
+    "subhead": "Save recipes, organize your meal plans and share ideas with friends and family.",
+    "features": [
+      "Recipe collection",
+      "Custom meal plans",
+      "Sharing with friends & family"
+    ],
+    "workflow": [
+      {
+        "title": "Find something to cook",
+        "body": "Search for recipes and save the ones you want to try."
+      },
+      {
+        "title": "Make a plan",
+        "body": "Arrange your meals into a plan for the days ahead."
+      },
+      {
+        "title": "Share your ideas",
+        "body": "Share meal plans with friends and family."
+      }
+    ],
+    "insightTitle": "Good ideas,\nready for the week.",
+    "insightBody": "Keep recipes and meal plans together so that deciding what to cook can start with something you already saved.",
+    "note": "See the App Store for current availability and download details.",
+    "appStoreUrl": "https://apps.apple.com/us/app/mealcal-social-meal-planning/id1608650489",
+    "privacyUrl": "/legal/mealcal/mealcal-privacy.html",
+    "termsUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "supportEmail": "admin@brightwoodapps.com",
+    "platform": "iPhone & iPad",
+    "minimumOs": "17.0",
+    "purchase": "Free to download · See App Store for current details",
+    "icon": "/assets/images/mealcal-icon.jpg",
+    "screenshots": [
+      "/assets/images/mealcal-store-1.jpg",
+      "/assets/images/mealcal-store-2.jpg"
+    ],
+    "faq": []
+  }
+]
