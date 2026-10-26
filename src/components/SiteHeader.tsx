@@ -4,7 +4,7 @@ import StaggeredMenu from './StaggeredMenu';
 
 export function SiteHeader() {
   const primaryItems = [
-    { label: 'Studio', href: '/#studio' },
+    { label: 'About', href: '/#about' },
     { label: 'Apps', href: '/#apps' },
     { label: 'Support', href: '/support' },
   ];

@@ -1,18 +1,4 @@
 import { Link } from 'react-router-dom';
-
-export function NotFoundPage() {
-  return (
-    <div className="page page--narrow">
-      <div className="container content-centered">
-        <p className="eyebrow">404</p>
-        <h1>Page not found</h1>
-        <p className="lede">The page you’re looking for has moved. Let’s get you back to the apps.</p>
-        <Link className="btn-primary" to="/#apps">
-          Browse apps
-        </Link>
-      </div>
-    </div>
-  );
+export default function NotFoundPage() {
+  return <main tabIndex={-1} id="main" className="bw-wrap bw-unavailable"><p className="bw-eyebrow">404 · Page not found</p><h1>Nothing growing<br />here just yet.</h1><p>We couldn’t find that page. Explore the current Brightwood collection.</p><Link className="bw-button" to="/#apps">Browse apps →</Link></main>;
 }
-
-export default NotFoundPage;
